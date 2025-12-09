@@ -1,0 +1,118 @@
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--color-bg-secondary);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: var(--color-text);
+}
+
+.contact-form__subtitle {
+  font-size: 1rem;
+  color: var(--color-text-light);
+  margin: 0 0 1.5rem 0;
+  line-height: 1.5;
+}
+
+.contact-form__group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form__label {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--color-text);
+}
+
+.contact-form__input,
+.contact-form__select,
+.contact-form__textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid var(--color-bg);
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.contact-form__input:focus,
+.contact-form__select:focus,
+.contact-form__textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.1);
+}
+
+.contact-form__input::placeholder,
+.contact-form__textarea::placeholder {
+  color: var(--color-text-light);
+}
+
+.contact-form__textarea {
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.5;
+}
+
+.contact-form__error {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(255, 107, 107, 0.1);
+  border-left: 4px solid var(--color-accent);
+  color: var(--color-accent);
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.contact-form__submit {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.contact-form__note {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.contact-form__success {
+  padding: 2rem;
+  background-color: rgba(81, 207, 102, 0.1);
+  border-left: 4px solid var(--color-success);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contact-form__success h3 {
+  font-size: 1.5rem;
+  color: var(--color-success);
+  margin: 0 0 0.5rem 0;
+}
+
+.contact-form__success p {
+  color: var(--color-text-light);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 1.5rem;
+  }
+
+  .contact-form__title {
+    font-size: 1.5rem;
+  }
+}

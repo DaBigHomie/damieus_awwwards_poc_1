@@ -1,0 +1,60 @@
+{
+  "name": "damieus-awwwards-poc",
+  "version": "1.0.0",
+  "description": "DAMIEUS - Digital Evolution Agency (Awwwards POC)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\"",
+    "validate:docs": "node scripts/validate-docs.js",
+    "validate:docs:strict": "node scripts/validate-docs.js --strict",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "type-check": "tsc --noEmit",
+    "pre-deploy": "node scripts/deployment/pre-deploy-validator.js",
+    "post-deploy": "node scripts/deployment/post-deploy-smoke-test.js",
+    "deploy:analyze": "node scripts/deployment/deploy-analysis.js"
+  },
+  "dependencies": {
+    "framer-motion": "^10.16.16",
+    "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/coverage-v8": "^1.6.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "husky": "^8.0.3",
+    "jest-axe": "^8.0.0",
+    "jsdom": "^27.0.1",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8",
+    "vitest": "^1.0.4"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.md": [
+      "npm run validate:docs"
+    ],
+    "DESIGN_SYSTEM_AND_DOC_INDEX.md": [
+      "npm run validate:docs:strict"
+    ]
+  }
+}
