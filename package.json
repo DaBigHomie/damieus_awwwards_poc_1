@@ -33,7 +33,7 @@
     "@typescript-eslint/eslint-plugin": "^6.15.0",
     "@typescript-eslint/parser": "^6.15.0",
     "@vitejs/plugin-react": "^4.2.1",
-    "@vitest/coverage-v8": "^1.6.1",
+    "@vitest/coverage-v8": "^4.0.15",
     "eslint": "^8.55.0",
     "eslint-plugin-react": "^7.33.2",
     "husky": "^8.0.3",
@@ -42,8 +42,8 @@
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.1",
     "typescript": "^5.3.3",
-    "vite": "^5.0.8",
-    "vitest": "^1.0.4"
+    "vite": "^7.2.7",
+    "vitest": "^4.0.15"
   },
   "lint-staged": {
     "*.{js,jsx}": [
