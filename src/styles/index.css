@@ -926,3 +926,15 @@ footer {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
+
+/* Active Navigation State */
+.nav-item.active {
+  color: var(--color-primary, #00ff00);
+  border-bottom: 2px solid currentColor;
+  font-weight: 600;
+}
+
+.nav-cta.active {
+  background-color: var(--color-primary, #00ff00);
+  color: var(--color-dark, #000);
+}
