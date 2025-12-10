@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Marquee = () => {
   const items = [
     'AI SOLUTIONS',

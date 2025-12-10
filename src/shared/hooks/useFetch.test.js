@@ -80,7 +80,7 @@ describe('useFetch Hook', () => {
   it('should handle different API endpoints', () => {
     global.fetch = vi.fn(() => new Promise(() => {}));
     
-    const { rerender } = renderHook(
+    renderHook(
       ({ url }) => useFetch(url),
       { initialProps: { url: '/api/users' } }
     );

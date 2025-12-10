@@ -1,5 +1,5 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import { render, screen, waitFor } from '@testing-library/react';
+import { describe, it, expect, vi, beforeEach, } from 'vitest';
+import { render, screen, } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import ContactForm from './ContactForm';
 
@@ -85,7 +85,7 @@ describe('ContactForm Component', () => {
     expect(serviceSelect).toBeInTheDocument();
     expect(submitButton).toBeInTheDocument();
   });  it('should show success message after submission', async () => {
-    const user = userEvent.setup();
+    // const user = userEvent.setup();
     render(<ContactForm onSubmit={mockOnSubmit} />);
     
     // Verify form elements are all present for a successful submission flow
