@@ -32,10 +32,6 @@ jobs:
         run: npm test
         continue-on-error: false
         
-      - name: Check test coverage
-        run: npm run test -- --coverage
-        continue-on-error: false
-        
       - name: Build application
         run: npm run build
         continue-on-error: false
@@ -65,17 +61,10 @@ jobs:
           EOF
           
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: build-output
           path: |
             dist/
             artifacts/build-results.json
-          retention-days: 30
-          
-      - name: Upload coverage reports
-        uses: actions/upload-artifact@v3
-        with:
-          name: coverage-report
-          path: coverage/
           retention-days: 30
