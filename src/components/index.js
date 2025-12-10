@@ -7,4 +7,4 @@ export { Services } from './Services';
 export { About } from './About';
 export { Footer } from './Footer';
 export { Onboarding } from './Onboarding';
-export { default as ContactForm } from './ContactForm';
+export { ContactForm } from './ContactForm';

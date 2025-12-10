@@ -1,0 +1,81 @@
+name: Agent 1 - Build & Test Orchestrator
+
+on:
+  push:
+    branches: [main, master, develop]
+  pull_request:
+    branches: [main, master, develop]
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Lint code
+        run: npm run lint
+        continue-on-error: false
+        
+      - name: Run tests
+        run: npm test
+        continue-on-error: false
+        
+      - name: Check test coverage
+        run: npm run test -- --coverage
+        continue-on-error: false
+        
+      - name: Build application
+        run: npm run build
+        continue-on-error: false
+        
+      - name: Verify build artifacts
+        run: |
+          if [ ! -d "dist" ]; then
+            echo "❌ Build failed: dist directory not found"
+            exit 1
+          fi
+          echo "✅ Build artifacts verified"
+          ls -lh dist/
+        
+      - name: Store build results
+        run: |
+          mkdir -p artifacts
+          cat > artifacts/build-results.json << EOF
+          {
+            "timestamp": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+            "success": true,
+            "agent": "build-test-orchestrator",
+            "workflow": "${{ github.workflow }}",
+            "run_id": "${{ github.run_id }}",
+            "commit": "${{ github.sha }}",
+            "branch": "${{ github.ref_name }}"
+          }
+          EOF
+          
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-output
+          path: |
+            dist/
+            artifacts/build-results.json
+          retention-days: 30
+          
+      - name: Upload coverage reports
+        uses: actions/upload-artifact@v3
+        with:
+          name: coverage-report
+          path: coverage/
+          retention-days: 30

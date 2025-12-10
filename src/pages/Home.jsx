@@ -8,7 +8,7 @@ import {
   Services,
   About,
   Footer,
-} from './components';
+} from '../components';
 
 export const Home = () => {
   return (
