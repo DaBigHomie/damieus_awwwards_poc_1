@@ -12,6 +12,10 @@ on:
         type: boolean
         default: false
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   task-1-fix-navigation:
     name: 'Task 1: Fix Navigation Links'
