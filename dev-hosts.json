@@ -1,0 +1,20 @@
+{
+  "hosts": {
+    "webapp": {
+      "url": "http://localhost:3002",
+      "port": 3002,
+      "name": "DAMIEUS Website"
+    },
+    "api": {
+      "url": "http://localhost:3001",
+      "port": 3001,
+      "name": "API Server"
+    },
+    "dashboard": {
+      "url": "http://localhost:5174",
+      "port": 5174,
+      "name": "Agent Dashboard"
+    }
+  },
+  "environment": "development"
+}
