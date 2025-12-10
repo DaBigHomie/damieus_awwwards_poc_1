@@ -101,7 +101,7 @@ const ContactForm = ({ onSubmit = () => {} }) => {
     return (
       <div className="contact-form__success">
         <h3>Thank you! 🎉</h3>
-        <p>We've received your inquiry and will get back to you soon.</p>
+        <p>We&apos;ve received your inquiry and will get back to you soon.</p>
       </div>
     );
   }
@@ -110,7 +110,7 @@ const ContactForm = ({ onSubmit = () => {} }) => {
     <form className="contact-form" onSubmit={handleSubmit}>
       <h2 className="contact-form__title">Get in Touch</h2>
       <p className="contact-form__subtitle">
-        Tell us about your project. We'll respond within 24 hours.
+        Tell us about your project. We&apos;ll respond within 24 hours.
       </p>
 
       {error && <div className="contact-form__error">{error}</div>}

@@ -209,7 +209,7 @@ export const Onboarding = () => {
                   </span>
                   <h2 className="text-3xl font-bold mt-2">Create a password to start.</h2>
                   <p className="text-gray-400 mt-2">
-                    Just a few more steps and you're done. <br />
+                    Just a few more steps and you&apos;re done. <br />
                     We hate paperwork, too.
                   </p>
                 </div>

@@ -25,7 +25,7 @@ export const Contact = () => {
         <div className="container">
           <h1>Get in Touch</h1>
           <p className="lead">
-            Ready to transform your business? Let's talk about your next project.
+            Ready to transform your business? Let&apos;s talk about your next project.
           </p>
         </div>
       </section>
@@ -67,15 +67,15 @@ export const Contact = () => {
               <p>We aim to respond to all inquiries within 24 business hours. For urgent matters, please call our office.</p>
             </div>
             <div className="faq-item">
-              <h3>What's your typical project timeline?</h3>
-              <p>Project timelines vary based on scope and complexity. We'll provide a detailed timeline after our initial consultation.</p>
+              <h3>What&apos;s your typical project timeline?</h3>
+              <p>Project timelines vary based on scope and complexity. We&apos;ll provide a detailed timeline after our initial consultation.</p>
             </div>
             <div className="faq-item">
               <h3>Do you work with startups?</h3>
               <p>Yes! We work with companies of all sizes, from ambitious startups to established enterprises.</p>
             </div>
             <div className="faq-item">
-              <h3>What's your process?</h3>
+              <h3>What&apos;s your process?</h3>
               <p>We follow a structured approach: Discovery → Design → Development → Testing → Launch → Support.</p>
             </div>
           </div>
