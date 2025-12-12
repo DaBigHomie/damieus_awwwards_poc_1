@@ -5,6 +5,7 @@ import { Services } from './pages/Services';
 import { About } from './pages/About';
 import { Work } from './pages/Work';
 import { ProjectDetail } from './pages/ProjectDetail';
+import { Gallery } from './pages/Gallery';
 import { NotFound } from './pages/NotFound';
 import { Onboarding } from './components';
 import './styles/index.css';
@@ -20,6 +21,7 @@ function App() {
         <Route path="/work" element={<Work />} />
         <Route path="/work/:slug" element={<ProjectDetail />} />
         <Route path="/portfolio" element={<Work />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/onboarding" element={<Onboarding />} />
         <Route path="*" element={<NotFound />} />
