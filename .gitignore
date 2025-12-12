@@ -10,3 +10,4 @@ build/
 # Local development config
 vite.config.local.js
 dev-hosts.local.json
+.vercel

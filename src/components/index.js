@@ -10,3 +10,5 @@ export { Onboarding } from './Onboarding';
 export { ContactForm } from './ContactForm';
 export { ProjectCard } from './ProjectCard';
 export { ProjectsGrid } from './ProjectsGrid';
+export { Lightbox } from './Lightbox';
+export { RelatedProjects } from './RelatedProjects';
