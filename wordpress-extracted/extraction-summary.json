@@ -1,0 +1,145 @@
+{
+  "extracted": "2025-12-12T21:24:10.596Z",
+  "counts": {
+    "services": 33,
+    "pages": 45,
+    "posts": 5,
+    "menus": 0,
+    "media": 86
+  },
+  "serviceList": [
+    {
+      "title": "Software-As-A-Service",
+      "slug": "software-as-a-service"
+    },
+    {
+      "title": "Service Details",
+      "slug": "service-details"
+    },
+    {
+      "title": "Services",
+      "slug": "services"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "slug": "artificial-intelligence"
+    },
+    {
+      "title": "Cyber Security",
+      "slug": "cyber-security"
+    },
+    {
+      "title": "Digital Marketing",
+      "slug": "digital-marketing"
+    },
+    {
+      "title": "Nonprofits",
+      "slug": "nonprofits"
+    },
+    {
+      "title": "Digital Marketing",
+      "slug": "digital-marketing"
+    },
+    {
+      "title": "Game Development",
+      "slug": "game-development"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy"
+    },
+    {
+      "title": "Terms of Use",
+      "slug": "terms-of-use"
+    },
+    {
+      "title": "Data Analysis",
+      "slug": "data-analysis"
+    },
+    {
+      "title": "Cloud Solutions",
+      "slug": "cloud-solutions"
+    },
+    {
+      "title": "Software Company 2 OP",
+      "slug": "software-company-2-op"
+    },
+    {
+      "title": "IT Company  Style 2 OP",
+      "slug": "it-company-2-op"
+    },
+    {
+      "title": "Sass Marketing",
+      "slug": "sass-marketing"
+    },
+    {
+      "title": "Damieus Technology Solutions",
+      "slug": "damieus-technology-solutions"
+    },
+    {
+      "title": "Consulting",
+      "slug": "consulting"
+    },
+    {
+      "title": "Help Desk",
+      "slug": "help-desk"
+    },
+    {
+      "title": "Security",
+      "slug": "security"
+    },
+    {
+      "title": "Startup",
+      "slug": "startup"
+    },
+    {
+      "title": "CRM",
+      "slug": "crm"
+    },
+    {
+      "title": "Software Company Style 2",
+      "slug": "home-software-company-2"
+    },
+    {
+      "title": "AI",
+      "slug": "ai"
+    },
+    {
+      "title": "Startups",
+      "slug": "startups"
+    },
+    {
+      "title": "Software Company op",
+      "slug": "software-company-op"
+    },
+    {
+      "title": "Faq",
+      "slug": "faq"
+    },
+    {
+      "title": "Project Details",
+      "slug": "project-details"
+    },
+    {
+      "title": "Team Details",
+      "slug": "team-details"
+    },
+    {
+      "title": "Team",
+      "slug": "team"
+    },
+    {
+      "title": "About Us",
+      "slug": "about-us"
+    },
+    {
+      "title": "Web Development",
+      "slug": "web-development"
+    },
+    {
+      "title": "Digital Agency",
+      "slug": "digital-agency"
+    }
+  ],
+  "menuStructure": []
+}

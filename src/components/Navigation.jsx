@@ -33,6 +33,12 @@ export const Navigation = () => {
           Work
         </Link>
         <Link 
+          to="/gallery" 
+          className={`nav-item ${isActive('/gallery') ? 'active' : ''}`}
+        >
+          Gallery
+        </Link>
+        <Link 
           to="/contact" 
           className={`nav-item ${isActive('/contact') ? 'active' : ''}`}
         >

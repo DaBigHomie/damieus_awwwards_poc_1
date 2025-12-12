@@ -1,0 +1,284 @@
+{
+  "parsedAt": "2025-12-12T22:19:47.962Z",
+  "xmlPath": "/Users/dame/management-git/wordpress-local/damieus-com-restore/wp-export/damieus.WordPress.2025-12-12.xml",
+  "totalPages": 45,
+  "totalPosts": 5,
+  "totalCategories": 6,
+  "totalTags": 10,
+  "pages": [
+    {
+      "title": "Shop",
+      "slug": "shop",
+      "date": "2024-01-30 14:42:57"
+    },
+    {
+      "title": "My Account",
+      "slug": "my-account",
+      "date": "2024-01-30 14:42:57"
+    },
+    {
+      "title": "Nonprofits",
+      "slug": "nonprofits",
+      "date": "2025-01-17 14:44:41"
+    },
+    {
+      "title": "Digital Agency",
+      "slug": "digital-agency",
+      "date": "2024-02-01 04:22:27"
+    },
+    {
+      "title": "Web Development",
+      "slug": "web-development",
+      "date": "2024-02-01 08:49:51"
+    },
+    {
+      "title": "About Us",
+      "slug": "about-us",
+      "date": "2024-02-04 06:44:27"
+    },
+    {
+      "title": "Services",
+      "slug": "services",
+      "date": "2024-02-04 09:09:26"
+    },
+    {
+      "title": "Service Details",
+      "slug": "service-details",
+      "date": "2024-02-04 09:13:17"
+    },
+    {
+      "title": "Team",
+      "slug": "team",
+      "date": "2024-02-04 11:13:57"
+    },
+    {
+      "title": "Team Details",
+      "slug": "team-details",
+      "date": "2024-02-04 11:25:25"
+    },
+    {
+      "title": "Wishlist",
+      "slug": "wishlist",
+      "date": "2024-12-28 21:03:06"
+    },
+    {
+      "title": "Projects",
+      "slug": "projects",
+      "date": "2024-02-04 11:39:55"
+    },
+    {
+      "title": "Project Details",
+      "slug": "project-details",
+      "date": "2024-02-06 11:31:56"
+    },
+    {
+      "title": "Gallery",
+      "slug": "gallery",
+      "date": "2024-02-06 11:41:16"
+    },
+    {
+      "title": "Pricing",
+      "slug": "pricing",
+      "date": "2024-02-06 11:42:42"
+    },
+    {
+      "title": "Faq",
+      "slug": "faq",
+      "date": "2024-02-06 11:47:12"
+    },
+    {
+      "title": "Contact us",
+      "slug": "contact-us",
+      "date": "2024-02-06 11:51:27"
+    },
+    {
+      "title": "Blog",
+      "slug": "blog",
+      "date": "2024-02-06 16:31:43"
+    },
+    {
+      "title": "Cart",
+      "slug": "cart",
+      "date": "2024-02-07 04:36:29"
+    },
+    {
+      "title": "Checkout",
+      "slug": "checkout",
+      "date": "2024-02-07 04:37:48"
+    },
+    {
+      "title": "Software Company op",
+      "slug": "software-company-op",
+      "date": "2024-04-07 05:43:33"
+    },
+    {
+      "title": "Startups",
+      "slug": "startups",
+      "date": "2024-04-07 06:01:52"
+    },
+    {
+      "title": "App Development",
+      "slug": "app-development",
+      "date": "2024-04-07 06:12:07"
+    },
+    {
+      "title": "AI",
+      "slug": "ai",
+      "date": "2024-04-07 06:50:06"
+    },
+    {
+      "title": "Software Company Style 2",
+      "slug": "home-software-company-2",
+      "date": "2024-04-23 13:12:57"
+    },
+    {
+      "title": "Wishlist",
+      "slug": "wishlist-2",
+      "date": "2024-05-19 03:18:35"
+    },
+    {
+      "title": "Software-As-A-Service",
+      "slug": "software-as-a-service",
+      "date": "2024-05-19 04:00:04"
+    },
+    {
+      "title": "CRM",
+      "slug": "crm",
+      "date": "2024-06-03 01:50:06"
+    },
+    {
+      "title": "Startup",
+      "slug": "startup",
+      "date": "2024-06-05 04:38:31"
+    },
+    {
+      "title": "Security",
+      "slug": "security",
+      "date": "2024-07-07 01:33:50"
+    },
+    {
+      "title": "Help Desk",
+      "slug": "help-desk",
+      "date": "2024-07-07 01:34:39"
+    },
+    {
+      "title": "Consulting",
+      "slug": "consulting",
+      "date": "2024-07-07 01:37:00"
+    },
+    {
+      "title": "Damieus Technology Solutions",
+      "slug": "damieus-technology-solutions",
+      "date": "2024-07-07 01:39:05"
+    },
+    {
+      "title": "Sass Marketing",
+      "slug": "sass-marketing",
+      "date": "2024-07-07 01:40:38"
+    },
+    {
+      "title": "IT Company  Style 2 OP",
+      "slug": "it-company-2-op",
+      "date": "2024-07-07 01:41:58"
+    },
+    {
+      "title": "Software Company 2 OP",
+      "slug": "software-company-2-op",
+      "date": "2024-07-07 01:42:34"
+    },
+    {
+      "title": "Cloud Solutions",
+      "slug": "cloud-solutions",
+      "date": "2024-10-31 07:38:17"
+    },
+    {
+      "title": "Data Analysis",
+      "slug": "data-analysis",
+      "date": "2024-11-21 12:31:51"
+    },
+    {
+      "title": "Terms of Use",
+      "slug": "terms-of-use",
+      "date": "2025-01-11 00:44:06"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "date": "2025-01-12 16:54:17"
+    },
+    {
+      "title": "Game Development",
+      "slug": "game-development",
+      "date": "2025-01-16 16:20:14"
+    },
+    {
+      "title": "Digital Marketing",
+      "slug": "digital-marketing",
+      "date": "2025-01-16 16:26:44"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "slug": "artificial-intelligence",
+      "date": "2025-01-23 23:54:39"
+    },
+    {
+      "title": "Cyber Security",
+      "slug": "cyber-security",
+      "date": "2025-01-23 23:51:08"
+    },
+    {
+      "title": "Digital Marketing",
+      "slug": "digital-marketing",
+      "date": "2025-01-23 23:48:10"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Regional Manager limited time management.",
+      "slug": "regional-manager-limited-time-management",
+      "date": "2023-02-13 07:32:53",
+      "categories": [
+        "IT Solution",
+        "Network Marketing",
+        "Web Development"
+      ]
+    },
+    {
+      "title": "Latin derived from Cicero's 1st-century BC",
+      "slug": "latin-derived-from-ciceros-1st-century-bc",
+      "date": "2023-02-13 07:48:53",
+      "categories": [
+        "Cloud Solution",
+        "SEO Marketing"
+      ]
+    },
+    {
+      "title": "What’s the Holding Back It Solution Industry?",
+      "slug": "whats-the-holding-back-it-solution-industry",
+      "date": "2023-02-13 07:51:15",
+      "categories": [
+        "UI/UX Design",
+        "Web Development"
+      ]
+    },
+    {
+      "title": "Regional Manager limited time management.",
+      "slug": "regional-manager-limited-time-management-2",
+      "date": "2023-02-13 07:54:04",
+      "categories": [
+        "IT Solution",
+        "SEO Marketing",
+        "UI/UX Design"
+      ]
+    },
+    {
+      "title": "Unsatiable entreaties may collecting Power.",
+      "slug": "unsatiable-entreaties-may-collecting-power",
+      "date": "2023-02-13 07:57:50",
+      "categories": [
+        "UI/UX Design",
+        "Web Development"
+      ]
+    }
+  ]
+}
