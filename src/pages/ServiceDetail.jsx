@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { Navigation, Footer } from '../components';
@@ -27,7 +27,7 @@ export const ServiceDetail = () => {
         <main className="service-not-found">
           <div className="container">
             <h1>Service Not Found</h1>
-            <p>Sorry, we couldn't find the service you're looking for.</p>
+            <p>Sorry, we couldn&apos;t find the service you&apos;re looking for.</p>
             <Link to="/services" className="btn-primary">View All Services</Link>
           </div>
         </main>
@@ -187,7 +187,7 @@ export const ServiceDetail = () => {
         <section className="service-cta">
           <div className="container">
             <h2>Ready to Get Started?</h2>
-            <p>Let's discuss how we can help transform your business</p>
+            <p>Let&apos;s discuss how we can help transform your business</p>
             <Link to="/contact" className="btn-primary">
               Schedule a Consultation
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">

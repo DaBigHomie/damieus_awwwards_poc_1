@@ -197,7 +197,7 @@ export const ProjectDetail = () => {
         <main className="project-not-found">
           <div className="container">
             <h1>Project Not Found</h1>
-            <p>Sorry, we couldn't find the project you're looking for.</p>
+            <p>Sorry, we couldn&apos;t find the project you&apos;re looking for.</p>
             <Link to="/work" className="btn-primary">Back to Projects</Link>
           </div>
         </main>
@@ -336,7 +336,7 @@ export const ProjectDetail = () => {
         <section className="project-cta">
           <div className="container">
             <h2>Ready to Start Your Project?</h2>
-            <p>Let's create something amazing together</p>
+            <p>Let&apos;s create something amazing together</p>
             <Link to="/contact" className="btn-primary">
               Get in Touch
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">

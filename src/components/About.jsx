@@ -12,7 +12,7 @@ export const About = () => {
           </p>
           <p>
             We are increasing business success with IT solutions. For over 25 years,
-            we've been empowering organizations with cutting-edge technology services
+            we&apos;ve been empowering organizations with cutting-edge technology services
             that drive growth and innovation.
           </p>
         </div>
