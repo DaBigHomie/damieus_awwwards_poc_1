@@ -1,6 +1,7 @@
 export { Loader } from './Loader';
 export { CustomCursor } from './CustomCursor';
 export { Navigation } from './Navigation';
+export { MegaMenu } from './MegaMenu';
 export { Hero } from './Hero';
 export { Marquee } from './Marquee';
 export { Services } from './Services';
