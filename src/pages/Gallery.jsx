@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Navigation, Footer, Lightbox } from '../components';
 import '../styles/gallery.css';
 
@@ -176,6 +177,15 @@ export const Gallery = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Gallery | Visual Showcase | Damieus Technology Solutions</title>
+        <meta name="description" content="Explore our visual gallery featuring UI/UX designs, mobile apps, Web3 projects, AR/VR experiences, and interactive dashboards. See our creative excellence." />
+        <meta property="og:title" content="Gallery | Damieus Visual Showcase" />
+        <meta property="og:description" content="Visual showcase of our award-winning designs and technology implementations across multiple industries." />
+        <meta property="og:type" content="website" />
+        <meta name="keywords" content="gallery, UI/UX design, mobile apps, web3, AR/VR, dashboard design, visual showcase" />
+        <link rel="canonical" href="https://damieus.com/gallery" />
+      </Helmet>
       <Navigation />
       <main className="gallery-page">
         {/* Page Header */}

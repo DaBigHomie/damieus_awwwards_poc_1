@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:ssg": "vite build && vite-ssg build",
     "preview": "vite preview",
     "lint": "eslint src --ext .js,.jsx",
     "format": "prettier --write \"src/**/*.{js,jsx,css}\"",
@@ -24,13 +25,13 @@
     "framer-motion": "^10.16.16",
     "lucide-react": "^0.294.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.1"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.1.5",
     "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^14.6.1",
+    "@types/react-helmet": "^6.1.11",
     "@typescript-eslint/eslint-plugin": "^6.15.0",
     "@typescript-eslint/parser": "^6.15.0",
     "@vitejs/plugin-react": "^4.2.1",
@@ -43,8 +44,13 @@
     "jsdom": "^27.0.1",
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.1",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^6.26.0",
+    "sharp": "^0.34.5",
     "typescript": "^5.3.3",
     "vite": "^5.0.8",
+    "vite-plugin-image-optimizer": "^2.0.3",
+    "vite-plugin-ssg": "^0.1.0",
     "vitest": "^1.0.4"
   },
   "lint-staged": {

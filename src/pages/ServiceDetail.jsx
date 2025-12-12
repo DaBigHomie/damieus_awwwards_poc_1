@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { Navigation, Footer } from '../components';
 import wordpressServices from '../data/wordpress-services.json';
 import '../styles/service-detail.css';
@@ -18,6 +19,10 @@ export const ServiceDetail = () => {
   if (!service) {
     return (
       <>
+        <Helmet>
+          <title>Service Not Found | Damieus Technology Solutions</title>
+          <meta name="description" content="The service you're looking for could not be found." />
+        </Helmet>
         <Navigation />
         <main className="service-not-found">
           <div className="container">
@@ -31,8 +36,20 @@ export const ServiceDetail = () => {
     );
   }
 
+  // Generate description from service tagline or overview
+  const description = service.tagline || service.overview?.paragraphs?.[0] || `Learn about our ${service.title} services and solutions.`;
+
   return (
     <>
+      <Helmet>
+        <title>{service.title} | Damieus Technology Solutions</title>
+        <meta name="description" content={description.substring(0, 160)} />
+        <meta property="og:title" content={`${service.title} | Damieus`} />
+        <meta property="og:description" content={description.substring(0, 160)} />
+        <meta property="og:type" content="website" />
+        <meta name="keywords" content={`${service.title}, technology solutions, ${slug}, digital services`} />
+        <link rel="canonical" href={`https://damieus.com/services/${slug}`} />
+      </Helmet>
       <Navigation />
       <main className="service-detail">
         {/* Breadcrumb */}
