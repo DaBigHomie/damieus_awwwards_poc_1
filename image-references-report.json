@@ -1,0 +1,342 @@
+{
+  "totalReferences": 47,
+  "uniqueImages": 41,
+  "categories": {
+    "services": [],
+    "projects": [
+      "images/projects/cyber-identity-1.jpg",
+      "images/projects/cyber-identity-2.jpg",
+      "images/projects/cyber-identity-3.jpg",
+      "images/projects/cyber-identity.jpg",
+      "images/projects/future-mobility-1.jpg",
+      "images/projects/future-mobility-2.jpg",
+      "images/projects/future-mobility-3.jpg",
+      "images/projects/future-mobility.jpg",
+      "images/projects/neon-commerce-1.jpg",
+      "images/projects/neon-commerce-2.jpg",
+      "images/projects/neon-commerce-3.jpg",
+      "images/projects/neon-commerce-4.jpg",
+      "images/projects/neon-commerce.jpg",
+      "images/projects/neural-creative-1.jpg",
+      "images/projects/neural-creative-2.jpg",
+      "images/projects/neural-creative-3.jpg",
+      "images/projects/neural-creative.jpg",
+      "images/projects/quantum-analytics-1.jpg",
+      "images/projects/quantum-analytics-2.jpg",
+      "images/projects/quantum-analytics-3.jpg",
+      "images/projects/quantum-analytics-4.jpg",
+      "images/projects/quantum-analytics.jpg",
+      "images/projects/smart-city-hub-1.jpg",
+      "images/projects/smart-city-hub-2.jpg",
+      "images/projects/smart-city-hub-3.jpg",
+      "images/projects/smart-city-hub.jpg"
+    ],
+    "gallery": [
+      "images/gallery/ai-design.jpg",
+      "images/gallery/ai-generation.jpg",
+      "images/gallery/blockchain-viz.jpg",
+      "images/gallery/city-dashboard.jpg",
+      "images/gallery/cyber-wallet.jpg",
+      "images/gallery/data-viz.jpg",
+      "images/gallery/iot-network.jpg",
+      "images/gallery/mobile-charging.jpg",
+      "images/gallery/mobile-checkout.jpg",
+      "images/gallery/mobile-ev-status.jpg",
+      "images/gallery/neon-ar.jpg",
+      "images/gallery/product-ar-preview.jpg",
+      "images/gallery/quantum-dashboard.jpg",
+      "images/gallery/smart-contract.jpg",
+      "images/gallery/traffic-control.jpg"
+    ],
+    "logos": [],
+    "other": []
+  },
+  "allReferences": [
+    {
+      "file": "src/components/ProjectsGrid.jsx",
+      "line": 10,
+      "imagePath": "/images/projects/quantum-analytics.jpg",
+      "context": "image: '/images/projects/quantum-analytics.jpg',"
+    },
+    {
+      "file": "src/components/ProjectsGrid.jsx",
+      "line": 20,
+      "imagePath": "/images/projects/neon-commerce.jpg",
+      "context": "image: '/images/projects/neon-commerce.jpg',"
+    },
+    {
+      "file": "src/components/ProjectsGrid.jsx",
+      "line": 30,
+      "imagePath": "/images/projects/cyber-identity.jpg",
+      "context": "image: '/images/projects/cyber-identity.jpg',"
+    },
+    {
+      "file": "src/components/ProjectsGrid.jsx",
+      "line": 40,
+      "imagePath": "/images/projects/future-mobility.jpg",
+      "context": "image: '/images/projects/future-mobility.jpg',"
+    },
+    {
+      "file": "src/components/ProjectsGrid.jsx",
+      "line": 50,
+      "imagePath": "/images/projects/neural-creative.jpg",
+      "context": "image: '/images/projects/neural-creative.jpg',"
+    },
+    {
+      "file": "src/components/ProjectsGrid.jsx",
+      "line": 60,
+      "imagePath": "/images/projects/smart-city-hub.jpg",
+      "context": "image: '/images/projects/smart-city-hub.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 9,
+      "imagePath": "/images/gallery/quantum-dashboard.jpg",
+      "context": "url: '/images/gallery/quantum-dashboard.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 18,
+      "imagePath": "/images/gallery/neon-ar.jpg",
+      "context": "url: '/images/gallery/neon-ar.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 27,
+      "imagePath": "/images/gallery/cyber-wallet.jpg",
+      "context": "url: '/images/gallery/cyber-wallet.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 36,
+      "imagePath": "/images/gallery/mobile-charging.jpg",
+      "context": "url: '/images/gallery/mobile-charging.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 45,
+      "imagePath": "/images/gallery/ai-design.jpg",
+      "context": "url: '/images/gallery/ai-design.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 54,
+      "imagePath": "/images/gallery/city-dashboard.jpg",
+      "context": "url: '/images/gallery/city-dashboard.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 63,
+      "imagePath": "/images/gallery/data-viz.jpg",
+      "context": "url: '/images/gallery/data-viz.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 72,
+      "imagePath": "/images/gallery/mobile-checkout.jpg",
+      "context": "url: '/images/gallery/mobile-checkout.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 81,
+      "imagePath": "/images/gallery/blockchain-viz.jpg",
+      "context": "url: '/images/gallery/blockchain-viz.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 90,
+      "imagePath": "/images/gallery/iot-network.jpg",
+      "context": "url: '/images/gallery/iot-network.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 99,
+      "imagePath": "/images/gallery/ai-generation.jpg",
+      "context": "url: '/images/gallery/ai-generation.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 108,
+      "imagePath": "/images/gallery/traffic-control.jpg",
+      "context": "url: '/images/gallery/traffic-control.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 117,
+      "imagePath": "/images/gallery/product-ar-preview.jpg",
+      "context": "url: '/images/gallery/product-ar-preview.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 126,
+      "imagePath": "/images/gallery/mobile-ev-status.jpg",
+      "context": "url: '/images/gallery/mobile-ev-status.jpg',"
+    },
+    {
+      "file": "src/pages/Gallery.jsx",
+      "line": 135,
+      "imagePath": "/images/gallery/smart-contract.jpg",
+      "context": "url: '/images/gallery/smart-contract.jpg',"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 17,
+      "imagePath": "/images/projects/quantum-analytics.jpg",
+      "context": "hero: '/images/projects/quantum-analytics.jpg',"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 30,
+      "imagePath": "/images/projects/quantum-analytics-1.jpg",
+      "context": "{ url: '/images/projects/quantum-analytics-1.jpg', alt: 'Dashboard overview', caption: 'Main dashboa"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 31,
+      "imagePath": "/images/projects/quantum-analytics-2.jpg",
+      "context": "{ url: '/images/projects/quantum-analytics-2.jpg', alt: 'Data visualization', caption: 'Advanced dat"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 32,
+      "imagePath": "/images/projects/quantum-analytics-3.jpg",
+      "context": "{ url: '/images/projects/quantum-analytics-3.jpg', alt: 'Mobile view', caption: 'Responsive mobile i"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 33,
+      "imagePath": "/images/projects/quantum-analytics-4.jpg",
+      "context": "{ url: '/images/projects/quantum-analytics-4.jpg', alt: 'AI insights', caption: 'AI-powered predicti"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 46,
+      "imagePath": "/images/projects/neon-commerce.jpg",
+      "context": "hero: '/images/projects/neon-commerce.jpg',"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 59,
+      "imagePath": "/images/projects/neon-commerce-1.jpg",
+      "context": "{ url: '/images/projects/neon-commerce-1.jpg', alt: 'Product catalog', caption: 'Modern product cata"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 60,
+      "imagePath": "/images/projects/neon-commerce-2.jpg",
+      "context": "{ url: '/images/projects/neon-commerce-2.jpg', alt: 'AR feature', caption: 'Augmented reality produc"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 61,
+      "imagePath": "/images/projects/neon-commerce-3.jpg",
+      "context": "{ url: '/images/projects/neon-commerce-3.jpg', alt: 'Checkout flow', caption: 'Streamlined checkout "
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 62,
+      "imagePath": "/images/projects/neon-commerce-4.jpg",
+      "context": "{ url: '/images/projects/neon-commerce-4.jpg', alt: 'Mobile shopping', caption: 'Mobile-optimized sh"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 75,
+      "imagePath": "/images/projects/cyber-identity.jpg",
+      "context": "hero: '/images/projects/cyber-identity.jpg',"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 88,
+      "imagePath": "/images/projects/cyber-identity-1.jpg",
+      "context": "{ url: '/images/projects/cyber-identity-1.jpg', alt: 'Identity dashboard', caption: 'User identity m"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 89,
+      "imagePath": "/images/projects/cyber-identity-2.jpg",
+      "context": "{ url: '/images/projects/cyber-identity-2.jpg', alt: 'Verification flow', caption: 'Secure verificat"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 90,
+      "imagePath": "/images/projects/cyber-identity-3.jpg",
+      "context": "{ url: '/images/projects/cyber-identity-3.jpg', alt: 'Wallet interface', caption: 'Digital wallet in"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 103,
+      "imagePath": "/images/projects/future-mobility.jpg",
+      "context": "hero: '/images/projects/future-mobility.jpg',"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 116,
+      "imagePath": "/images/projects/future-mobility-1.jpg",
+      "context": "{ url: '/images/projects/future-mobility-1.jpg', alt: 'Mobile app', caption: 'Mobile app with statio"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 117,
+      "imagePath": "/images/projects/future-mobility-2.jpg",
+      "context": "{ url: '/images/projects/future-mobility-2.jpg', alt: 'Station map', caption: 'Real-time charging ne"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 118,
+      "imagePath": "/images/projects/future-mobility-3.jpg",
+      "context": "{ url: '/images/projects/future-mobility-3.jpg', alt: 'Charging status', caption: 'Live charging sta"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 131,
+      "imagePath": "/images/projects/neural-creative.jpg",
+      "context": "hero: '/images/projects/neural-creative.jpg',"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 144,
+      "imagePath": "/images/projects/neural-creative-1.jpg",
+      "context": "{ url: '/images/projects/neural-creative-1.jpg', alt: 'Design interface', caption: 'AI-assisted desi"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 145,
+      "imagePath": "/images/projects/neural-creative-2.jpg",
+      "context": "{ url: '/images/projects/neural-creative-2.jpg', alt: 'AI suggestions', caption: 'Real-time design s"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 146,
+      "imagePath": "/images/projects/neural-creative-3.jpg",
+      "context": "{ url: '/images/projects/neural-creative-3.jpg', alt: 'Collaboration', caption: 'Team collaboration "
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 159,
+      "imagePath": "/images/projects/smart-city-hub.jpg",
+      "context": "hero: '/images/projects/smart-city-hub.jpg',"
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 172,
+      "imagePath": "/images/projects/smart-city-hub-1.jpg",
+      "context": "{ url: '/images/projects/smart-city-hub-1.jpg', alt: 'City dashboard', caption: 'Comprehensive city "
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 173,
+      "imagePath": "/images/projects/smart-city-hub-2.jpg",
+      "context": "{ url: '/images/projects/smart-city-hub-2.jpg', alt: 'Traffic control', caption: 'Real-time traffic "
+    },
+    {
+      "file": "src/pages/ProjectDetail.jsx",
+      "line": 174,
+      "imagePath": "/images/projects/smart-city-hub-3.jpg",
+      "context": "{ url: '/images/projects/smart-city-hub-3.jpg', alt: 'Analytics', caption: 'Predictive analytics and"
+    }
+  ],
+  "summary": {
+    "placeholderImages": 41,
+    "actualImages": 0
+  }
+}
