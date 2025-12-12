@@ -8,3 +8,5 @@ export { About } from './About';
 export { Footer } from './Footer';
 export { Onboarding } from './Onboarding';
 export { ContactForm } from './ContactForm';
+export { ProjectCard } from './ProjectCard';
+export { ProjectsGrid } from './ProjectsGrid';
