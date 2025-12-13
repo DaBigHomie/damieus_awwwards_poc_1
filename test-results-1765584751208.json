@@ -1,0 +1,263 @@
+{
+  "timestamp": "2025-12-13T00:12:30.119Z",
+  "baseUrl": "https://showcase.damieus.app",
+  "tests": [
+    {
+      "type": "success",
+      "message": "Excellent response time",
+      "details": {
+        "duration": "262ms"
+      },
+      "timestamp": "2025-12-13T00:12:30.391Z"
+    },
+    {
+      "type": "success",
+      "message": "Optimized page size",
+      "details": {
+        "size": "3.17 KB"
+      },
+      "timestamp": "2025-12-13T00:12:30.391Z"
+    },
+    {
+      "type": "warning",
+      "message": "No compression detected",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:30.391Z"
+    },
+    {
+      "type": "success",
+      "message": "Cache headers present",
+      "details": {
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      "timestamp": "2025-12-13T00:12:30.391Z"
+    },
+    {
+      "type": "warning",
+      "message": "HTTP does not redirect to HTTPS",
+      "details": {
+        "statusCode": 308
+      },
+      "timestamp": "2025-12-13T00:12:30.488Z"
+    },
+    {
+      "type": "success",
+      "message": "Page loaded: /",
+      "details": {
+        "duration": "65ms",
+        "size": "3.17 KB"
+      },
+      "timestamp": "2025-12-13T00:12:30.554Z"
+    },
+    {
+      "type": "error",
+      "message": "Page failed to load: /about",
+      "details": {
+        "statusCode": 404
+      },
+      "timestamp": "2025-12-13T00:12:30.593Z"
+    },
+    {
+      "type": "error",
+      "message": "Page failed to load: /services",
+      "details": {
+        "statusCode": 404
+      },
+      "timestamp": "2025-12-13T00:12:30.669Z"
+    },
+    {
+      "type": "error",
+      "message": "Page failed to load: /work",
+      "details": {
+        "statusCode": 404
+      },
+      "timestamp": "2025-12-13T00:12:30.743Z"
+    },
+    {
+      "type": "error",
+      "message": "Page failed to load: /gallery",
+      "details": {
+        "statusCode": 404
+      },
+      "timestamp": "2025-12-13T00:12:30.813Z"
+    },
+    {
+      "type": "error",
+      "message": "Page failed to load: /contact",
+      "details": {
+        "statusCode": 404
+      },
+      "timestamp": "2025-12-13T00:12:30.861Z"
+    },
+    {
+      "type": "success",
+      "message": "iPhone SE: Has viewport meta tag",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:30.941Z"
+    },
+    {
+      "type": "warning",
+      "message": "iPhone SE: No responsive CSS detected in HTML",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:30.941Z"
+    },
+    {
+      "type": "warning",
+      "message": "iPhone SE: Limited mobile optimization",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:30.941Z"
+    },
+    {
+      "type": "success",
+      "message": "iPhone 12: Has viewport meta tag",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:30.985Z"
+    },
+    {
+      "type": "warning",
+      "message": "iPhone 12: No responsive CSS detected in HTML",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:30.985Z"
+    },
+    {
+      "type": "warning",
+      "message": "iPhone 12: Limited mobile optimization",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:30.985Z"
+    },
+    {
+      "type": "success",
+      "message": "iPad Mini: Has viewport meta tag",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.025Z"
+    },
+    {
+      "type": "warning",
+      "message": "iPad Mini: No responsive CSS detected in HTML",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.025Z"
+    },
+    {
+      "type": "warning",
+      "message": "iPad Mini: Limited mobile optimization",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.025Z"
+    },
+    {
+      "type": "success",
+      "message": "Galaxy S21: Has viewport meta tag",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.064Z"
+    },
+    {
+      "type": "warning",
+      "message": "Galaxy S21: No responsive CSS detected in HTML",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.064Z"
+    },
+    {
+      "type": "warning",
+      "message": "Galaxy S21: Limited mobile optimization",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.064Z"
+    },
+    {
+      "type": "success",
+      "message": "HSTS header present",
+      "details": {
+        "value": "max-age=63072000"
+      },
+      "timestamp": "2025-12-13T00:12:31.109Z"
+    },
+    {
+      "type": "warning",
+      "message": "Clickjacking Protection header missing",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.109Z"
+    },
+    {
+      "type": "warning",
+      "message": "MIME Sniffing Protection header missing",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.109Z"
+    },
+    {
+      "type": "warning",
+      "message": "XSS Protection header missing",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.109Z"
+    },
+    {
+      "type": "warning",
+      "message": "CSP header missing",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.109Z"
+    },
+    {
+      "type": "success",
+      "message": "HTTPS enabled",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.109Z"
+    },
+    {
+      "type": "success",
+      "message": "Page title present",
+      "details": {
+        "title": "DAMIEUS | Future Tech Solutions"
+      },
+      "timestamp": "2025-12-13T00:12:31.164Z"
+    },
+    {
+      "type": "success",
+      "message": "Meta description present",
+      "details": {
+        "description": "Leading technology solutions provider offering AI, cloud services, web development, cybersecurity, a..."
+      },
+      "timestamp": "2025-12-13T00:12:31.164Z"
+    },
+    {
+      "type": "success",
+      "message": "Open Graph tags present (6 tags)",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.165Z"
+    },
+    {
+      "type": "success",
+      "message": "Canonical URL present",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.165Z"
+    },
+    {
+      "type": "info",
+      "message": "No structured data detected",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.165Z"
+    },
+    {
+      "type": "info",
+      "message": "No ARIA labels detected",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.208Z"
+    },
+    {
+      "type": "warning",
+      "message": "Limited semantic HTML",
+      "details": {
+        "tags": []
+      },
+      "timestamp": "2025-12-13T00:12:31.208Z"
+    },
+    {
+      "type": "success",
+      "message": "Language attribute present",
+      "details": null,
+      "timestamp": "2025-12-13T00:12:31.208Z"
+    }
+  ],
+  "summary": {
+    "total": 37,
+    "passed": 15,
+    "failed": 5,
+    "warnings": 15
+  }
+}
