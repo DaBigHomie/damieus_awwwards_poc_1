@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async';
-import { ContactForm } from '../components';
+import { ContactForm, Navigation, Footer } from '../components';
 import '../styles/contact.css';
 
 /**
@@ -21,7 +21,9 @@ export const Contact = () => {
   };
 
   return (
-    <div className="page contact-page">
+    <>
+      <Navigation />
+      <div className="page contact-page">
       <Helmet>
         <title>Contact Us | Get in Touch with Damieus Technology Solutions</title>
         <meta name="description" content="Ready to transform your business? Contact Damieus for premium technology solutions. 24/7 support, expert team, certified company." />
@@ -91,5 +93,7 @@ export const Contact = () => {
         </div>
       </section>
     </div>
+    <Footer />
+    </>
   );
 };
