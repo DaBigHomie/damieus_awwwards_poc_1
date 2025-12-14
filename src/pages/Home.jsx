@@ -6,6 +6,7 @@ import {
   Hero,
   Marquee,
   Services,
+  ProjectsGrid,
   About,
   Footer,
 } from '../components';
@@ -25,10 +26,13 @@ export const Home = () => {
       <Loader />
       <CustomCursor />
       <Navigation />
-      <Hero />
-      <Marquee />
-      <Services />
-      <About />
+      <main>
+        <Hero />
+        <Marquee />
+        <Services />
+        <ProjectsGrid />
+        <About />
+      </main>
       <Footer />
     </>
   );
