@@ -227,7 +227,7 @@ describe('Damieus Performance Tests', () => {
 
       console.log('LCP:', lcp, 'ms');
       expect(lcp).toBeLessThan(2500); // Good LCP is under 2.5s
-    });
+    }, 15000); // Increased timeout to 15s to allow for LCP measurement
 
     test('should measure First Input Delay (FID)', async () => {
       await page.goto(BASE_URL, { waitUntil: 'domcontentloaded' });

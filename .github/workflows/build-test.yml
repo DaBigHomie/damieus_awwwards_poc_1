@@ -10,6 +10,7 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
+    timeout-minutes: 15 # Prevent stuck workflows
     
     steps:
       - name: Checkout code
@@ -27,9 +28,16 @@ jobs:
       - name: Lint code
         run: npm run lint
         continue-on-error: false
-        
-      - name: Run tests
-        run: npm test
+      
+      - name: Run tests with detailed output
+        run: |
+          echo "🧪 Running test suite..."
+          npm test 2>&1 | tee test-output.log || {
+            echo ""
+            echo "❌ Tests failed. Last 50 lines of output:"
+            tail -50 test-output.log
+            exit 1
+          }
         continue-on-error: false
         
       - name: Build application
@@ -55,8 +63,19 @@ jobs:
           fi
           echo "✅ Build artifacts verified"
           ls -lh dist/
+      
+      - name: Upload test logs on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-failure-logs
+          path: |
+            test-output.log
+            npm-debug.log*
+          retention-days: 7
         
       - name: Store build results
+        if: success()
         run: |
           mkdir -p artifacts
           cat > artifacts/build-results.json << EOF
@@ -72,6 +91,7 @@ jobs:
           EOF
           
       - name: Upload build artifacts
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: build-output
@@ -79,3 +99,16 @@ jobs:
             dist/
             artifacts/build-results.json
           retention-days: 30
+      
+      - name: Comment on failure
+        if: failure() && github.event_name == 'pull_request'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '❌ Build & Test Orchestrator failed. Check workflow logs for details: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+            })
+
