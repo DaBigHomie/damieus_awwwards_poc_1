@@ -1,0 +1,13 @@
+.onboarding-page {
+  min-height: 100vh;
+}
+
+.onboarding-page .hero-section {
+  padding: 120px 0 80px;
+  text-align: center;
+}
+
+.onboarding-page h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: 1.5rem;
+}
