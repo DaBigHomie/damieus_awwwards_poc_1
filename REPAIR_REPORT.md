@@ -1,7 +1,7 @@
 # Link & Placeholder Repair Report
 
-**Generated**: 2025-12-14T21:00:13.812Z
-**Mode**: Dry Run
+**Generated**: 2025-12-14T21:04:52.893Z
+**Mode**: Analysis Only
 
 ## Summary
 
