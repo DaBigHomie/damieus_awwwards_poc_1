@@ -14,7 +14,7 @@ const projectsData = [
     year: '2024',
     services: ['UI/UX Design', 'Full-Stack Development', 'AI Integration'],
     liveUrl: 'https://quantum-analytics.example.com',
-    hero: '/images/projects/quantum-analytics.jpg',
+    hero: '/images/projects/quantum-analytics.svg',
     description: `Quantum Analytics Platform represents the next generation of business intelligence tools, combining advanced machine learning algorithms with an intuitive user interface. This comprehensive platform enables enterprises to transform complex data sets into actionable insights through real-time analytics, predictive modeling, and automated reporting systems.
 
 The project challenged us to create a solution that could handle massive data volumes while maintaining sub-second query response times. Our team designed a distributed architecture leveraging edge computing and intelligent caching strategies to deliver exceptional performance at scale.`,
@@ -27,10 +27,10 @@ The project challenged us to create a solution that could handle massive data vo
       '40% increase in data-driven decisions'
     ],
     gallery: [
-      { url: '/images/projects/quantum-analytics-1.jpg', alt: 'Dashboard overview', caption: 'Main dashboard with real-time analytics' },
-      { url: '/images/projects/quantum-analytics-2.jpg', alt: 'Data visualization', caption: 'Advanced data visualization tools' },
-      { url: '/images/projects/quantum-analytics-3.jpg', alt: 'Mobile view', caption: 'Responsive mobile interface' },
-      { url: '/images/projects/quantum-analytics-4.jpg', alt: 'AI insights', caption: 'AI-powered predictive insights' }
+      { url: '/images/projects/quantum-analytics-1.svg', alt: 'Dashboard overview', caption: 'Main dashboard with real-time analytics' },
+      { url: '/images/projects/quantum-analytics-2.svg', alt: 'Data visualization', caption: 'Advanced data visualization tools' },
+      { url: '/images/projects/quantum-analytics-3.svg', alt: 'Mobile view', caption: 'Responsive mobile interface' },
+      { url: '/images/projects/quantum-analytics-4.svg', alt: 'AI insights', caption: 'AI-powered predictive insights' }
     ],
     tags: ['AI/ML', 'Dashboard', 'React'],
     category: 'web-app',
@@ -43,7 +43,7 @@ The project challenged us to create a solution that could handle massive data vo
     year: '2024',
     services: ['E-commerce Platform', 'AR Integration', 'Mobile Development'],
     liveUrl: 'https://neon-commerce.example.com',
-    hero: '/images/projects/neon-commerce.jpg',
+    hero: '/images/projects/neon-commerce.svg',
     description: `Neon Commerce revolutionizes online shopping with augmented reality features that allow customers to visualize products in their space before purchase. This next-generation e-commerce platform combines cutting-edge AR technology with seamless checkout experiences and personalized recommendations powered by machine learning.
 
 Built on a modern headless architecture, the platform delivers lightning-fast performance across all devices while providing retailers with powerful tools for inventory management, analytics, and customer engagement.`,
@@ -56,10 +56,10 @@ Built on a modern headless architecture, the platform delivers lightning-fast pe
       '91% positive AR feature feedback'
     ],
     gallery: [
-      { url: '/images/projects/neon-commerce-1.jpg', alt: 'Product catalog', caption: 'Modern product catalog with AR preview' },
-      { url: '/images/projects/neon-commerce-2.jpg', alt: 'AR feature', caption: 'Augmented reality product visualization' },
-      { url: '/images/projects/neon-commerce-3.jpg', alt: 'Checkout flow', caption: 'Streamlined checkout experience' },
-      { url: '/images/projects/neon-commerce-4.jpg', alt: 'Mobile shopping', caption: 'Mobile-optimized shopping experience' }
+      { url: '/images/projects/neon-commerce-1.svg', alt: 'Product catalog', caption: 'Modern product catalog with AR preview' },
+      { url: '/images/projects/neon-commerce-2.svg', alt: 'AR feature', caption: 'Augmented reality product visualization' },
+      { url: '/images/projects/neon-commerce-3.svg', alt: 'Checkout flow', caption: 'Streamlined checkout experience' },
+      { url: '/images/projects/neon-commerce-4.svg', alt: 'Mobile shopping', caption: 'Mobile-optimized shopping experience' }
     ],
     tags: ['E-commerce', 'AR', 'Next.js'],
     category: 'web-app',
@@ -72,7 +72,7 @@ Built on a modern headless architecture, the platform delivers lightning-fast pe
     year: '2024',
     services: ['Blockchain Development', 'Security Architecture', 'Web3 Integration'],
     liveUrl: 'https://cyber-identity.example.com',
-    hero: '/images/projects/cyber-identity.jpg',
+    hero: '/images/projects/cyber-identity.svg',
     description: `Cyber Identity is a decentralized identity management system built on blockchain technology, providing users with complete control over their digital identities. The platform enables secure, privacy-preserving authentication across multiple services without relying on centralized authorities.
 
 This innovative solution addresses growing concerns about data privacy and identity theft by leveraging zero-knowledge proofs and distributed ledger technology to create a trustless verification system.`,
@@ -85,9 +85,9 @@ This innovative solution addresses growing concerns about data privacy and ident
       'Integration with 50+ dApps'
     ],
     gallery: [
-      { url: '/images/projects/cyber-identity-1.jpg', alt: 'Identity dashboard', caption: 'User identity management dashboard' },
-      { url: '/images/projects/cyber-identity-2.jpg', alt: 'Verification flow', caption: 'Secure verification process' },
-      { url: '/images/projects/cyber-identity-3.jpg', alt: 'Wallet interface', caption: 'Digital wallet interface' }
+      { url: '/images/projects/cyber-identity-1.svg', alt: 'Identity dashboard', caption: 'User identity management dashboard' },
+      { url: '/images/projects/cyber-identity-2.svg', alt: 'Verification flow', caption: 'Secure verification process' },
+      { url: '/images/projects/cyber-identity-3.svg', alt: 'Wallet interface', caption: 'Digital wallet interface' }
     ],
     tags: ['Blockchain', 'Security', 'Web3'],
     category: 'web3',
@@ -100,7 +100,7 @@ This innovative solution addresses growing concerns about data privacy and ident
     year: '2023',
     services: ['IoT Development', 'Mobile Apps', 'Real-time Systems'],
     liveUrl: 'https://future-mobility.example.com',
-    hero: '/images/projects/future-mobility.jpg',
+    hero: '/images/projects/future-mobility.svg',
     description: `Future Mobility is a comprehensive electric vehicle charging network management system that connects drivers, charging stations, and grid operators in a seamless ecosystem. The platform optimizes charging schedules based on grid demand, energy prices, and user preferences while providing real-time availability and navigation.
 
 Built with IoT integration at its core, the system manages thousands of charging points across urban and highway networks, ensuring reliable service and efficient energy distribution.`,
@@ -113,9 +113,9 @@ Built with IoT integration at its core, the system manages thousands of charging
       '28% improvement in grid efficiency'
     ],
     gallery: [
-      { url: '/images/projects/future-mobility-1.jpg', alt: 'Mobile app', caption: 'Mobile app with station finder' },
-      { url: '/images/projects/future-mobility-2.jpg', alt: 'Station map', caption: 'Real-time charging network map' },
-      { url: '/images/projects/future-mobility-3.jpg', alt: 'Charging status', caption: 'Live charging status monitoring' }
+      { url: '/images/projects/future-mobility-1.svg', alt: 'Mobile app', caption: 'Mobile app with station finder' },
+      { url: '/images/projects/future-mobility-2.svg', alt: 'Station map', caption: 'Real-time charging network map' },
+      { url: '/images/projects/future-mobility-3.svg', alt: 'Charging status', caption: 'Live charging status monitoring' }
     ],
     tags: ['IoT', 'Mobile', 'React Native'],
     category: 'mobile',
@@ -128,7 +128,7 @@ Built with IoT integration at its core, the system manages thousands of charging
     year: '2024',
     services: ['AI Development', 'Design Tools', 'SaaS Platform'],
     liveUrl: 'https://neural-creative.example.com',
-    hero: '/images/projects/neural-creative.jpg',
+    hero: '/images/projects/neural-creative.svg',
     description: `Neural Creative Studio is an AI-powered design platform that assists creative professionals in generating, iterating, and refining visual content. The platform combines generative AI models with intuitive design tools, enabling users to transform ideas into polished designs through natural language prompts and intelligent suggestions.
 
 The system learns from user preferences and industry trends to provide increasingly personalized recommendations while maintaining full creative control in the hands of the designer.`,
@@ -141,9 +141,9 @@ The system learns from user preferences and industry trends to provide increasin
       'Integration with major design tools'
     ],
     gallery: [
-      { url: '/images/projects/neural-creative-1.jpg', alt: 'Design interface', caption: 'AI-assisted design interface' },
-      { url: '/images/projects/neural-creative-2.jpg', alt: 'AI suggestions', caption: 'Real-time design suggestions' },
-      { url: '/images/projects/neural-creative-3.jpg', alt: 'Collaboration', caption: 'Team collaboration features' }
+      { url: '/images/projects/neural-creative-1.svg', alt: 'Design interface', caption: 'AI-assisted design interface' },
+      { url: '/images/projects/neural-creative-2.svg', alt: 'AI suggestions', caption: 'Real-time design suggestions' },
+      { url: '/images/projects/neural-creative-3.svg', alt: 'Collaboration', caption: 'Team collaboration features' }
     ],
     tags: ['AI', 'Design', 'SaaS'],
     category: 'web-app',
@@ -156,7 +156,7 @@ The system learns from user preferences and industry trends to provide increasin
     year: '2023',
     services: ['IoT Platform', 'Data Analytics', 'City Management'],
     liveUrl: 'https://smart-city-hub.example.com',
-    hero: '/images/projects/smart-city-hub.jpg',
+    hero: '/images/projects/smart-city-hub.svg',
     description: `Smart City Hub is an integrated urban management platform that connects various city systems - from traffic lights and public transit to waste management and energy grids. The platform provides city officials with real-time insights and automated control systems to improve efficiency, reduce costs, and enhance quality of life for citizens.
 
 By aggregating data from thousands of IoT sensors and devices, the system creates a comprehensive digital twin of the city, enabling predictive maintenance, resource optimization, and emergency response coordination.`,
@@ -169,9 +169,9 @@ By aggregating data from thousands of IoT sensors and devices, the system create
       '85% citizen satisfaction increase'
     ],
     gallery: [
-      { url: '/images/projects/smart-city-hub-1.jpg', alt: 'City dashboard', caption: 'Comprehensive city management dashboard' },
-      { url: '/images/projects/smart-city-hub-2.jpg', alt: 'Traffic control', caption: 'Real-time traffic optimization' },
-      { url: '/images/projects/smart-city-hub-3.jpg', alt: 'Analytics', caption: 'Predictive analytics and insights' }
+      { url: '/images/projects/smart-city-hub-1.svg', alt: 'City dashboard', caption: 'Comprehensive city management dashboard' },
+      { url: '/images/projects/smart-city-hub-2.svg', alt: 'Traffic control', caption: 'Real-time traffic optimization' },
+      { url: '/images/projects/smart-city-hub-3.svg', alt: 'Analytics', caption: 'Predictive analytics and insights' }
     ],
     tags: ['IoT', 'Dashboard', 'Real-time'],
     category: 'web-app',

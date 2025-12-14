@@ -60,7 +60,7 @@ export const MegaMenu = ({ isOpen, onClose }) => {
             >
               <div className="service-image">
                 <img 
-                  src={`/images/services/${service.slug}.jpg`} 
+                  src={`/images/services/${service.slug}.svg`} 
                   alt={service.title}
                   loading="lazy"
                   onError={(e) => {

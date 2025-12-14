@@ -7,7 +7,7 @@ import '../styles/gallery.css';
 const galleryImages = [
   {
     id: 1,
-    url: '/images/gallery/quantum-dashboard.jpg',
+    url: '/images/gallery/quantum-dashboard.svg',
     alt: 'Quantum Analytics Dashboard Interface',
     caption: 'Real-time analytics dashboard with AI-powered insights',
     category: 'UI/UX',
@@ -16,7 +16,7 @@ const galleryImages = [
   },
   {
     id: 2,
-    url: '/images/gallery/neon-ar.jpg',
+    url: '/images/gallery/neon-ar.svg',
     alt: 'AR Product Visualization',
     caption: 'Augmented reality product preview in customer environment',
     category: 'AR/VR',
@@ -25,7 +25,7 @@ const galleryImages = [
   },
   {
     id: 3,
-    url: '/images/gallery/cyber-wallet.jpg',
+    url: '/images/gallery/cyber-wallet.svg',
     alt: 'Blockchain Wallet Interface',
     caption: 'Secure decentralized identity wallet',
     category: 'Web3',
@@ -34,7 +34,7 @@ const galleryImages = [
   },
   {
     id: 4,
-    url: '/images/gallery/mobile-charging.jpg',
+    url: '/images/gallery/mobile-charging.svg',
     alt: 'EV Charging App',
     caption: 'Mobile app for finding and reserving charging stations',
     category: 'Mobile',
@@ -43,7 +43,7 @@ const galleryImages = [
   },
   {
     id: 5,
-    url: '/images/gallery/ai-design.jpg',
+    url: '/images/gallery/ai-design.svg',
     alt: 'AI Design Studio',
     caption: 'Neural-powered creative design interface',
     category: 'UI/UX',
@@ -52,7 +52,7 @@ const galleryImages = [
   },
   {
     id: 6,
-    url: '/images/gallery/city-dashboard.jpg',
+    url: '/images/gallery/city-dashboard.svg',
     alt: 'Smart City Control Center',
     caption: 'Urban infrastructure management dashboard',
     category: 'Dashboard',
@@ -61,7 +61,7 @@ const galleryImages = [
   },
   {
     id: 7,
-    url: '/images/gallery/data-viz.jpg',
+    url: '/images/gallery/data-viz.svg',
     alt: 'Advanced Data Visualization',
     caption: 'Interactive data visualization with predictive analytics',
     category: 'Dashboard',
@@ -70,7 +70,7 @@ const galleryImages = [
   },
   {
     id: 8,
-    url: '/images/gallery/mobile-checkout.jpg',
+    url: '/images/gallery/mobile-checkout.svg',
     alt: 'Mobile Checkout Experience',
     caption: 'Streamlined one-tap checkout flow',
     category: 'Mobile',
@@ -79,7 +79,7 @@ const galleryImages = [
   },
   {
     id: 9,
-    url: '/images/gallery/blockchain-viz.jpg',
+    url: '/images/gallery/blockchain-viz.svg',
     alt: 'Blockchain Network Visualization',
     caption: 'Real-time blockchain transaction visualization',
     category: 'Web3',
@@ -88,7 +88,7 @@ const galleryImages = [
   },
   {
     id: 10,
-    url: '/images/gallery/iot-network.jpg',
+    url: '/images/gallery/iot-network.svg',
     alt: 'IoT Network Map',
     caption: 'Connected charging station network map',
     category: 'UI/UX',
@@ -97,7 +97,7 @@ const galleryImages = [
   },
   {
     id: 11,
-    url: '/images/gallery/ai-generation.jpg',
+    url: '/images/gallery/ai-generation.svg',
     alt: 'AI Content Generation',
     caption: 'AI-powered design generation interface',
     category: 'UI/UX',
@@ -106,7 +106,7 @@ const galleryImages = [
   },
   {
     id: 12,
-    url: '/images/gallery/traffic-control.jpg',
+    url: '/images/gallery/traffic-control.svg',
     alt: 'Traffic Management System',
     caption: 'AI-optimized traffic flow control',
     category: 'Dashboard',
@@ -115,7 +115,7 @@ const galleryImages = [
   },
   {
     id: 13,
-    url: '/images/gallery/product-ar-preview.jpg',
+    url: '/images/gallery/product-ar-preview.svg',
     alt: 'AR Product Preview',
     caption: 'Furniture visualization in augmented reality',
     category: 'AR/VR',
@@ -124,7 +124,7 @@ const galleryImages = [
   },
   {
     id: 14,
-    url: '/images/gallery/mobile-ev-status.jpg',
+    url: '/images/gallery/mobile-ev-status.svg',
     alt: 'Charging Status Monitor',
     caption: 'Real-time charging status and energy metrics',
     category: 'Mobile',
@@ -133,7 +133,7 @@ const galleryImages = [
   },
   {
     id: 15,
-    url: '/images/gallery/smart-contract.jpg',
+    url: '/images/gallery/smart-contract.svg',
     alt: 'Smart Contract Interface',
     caption: 'User-friendly smart contract deployment',
     category: 'Web3',
