@@ -1,0 +1,32 @@
+/* About Page Styles - About */
+
+:root {
+  --primary-color: #3b82f6;
+}
+
+.About-timeline {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.About-timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--primary-color), transparent);
+}
+
+.About-timeline-item {
+  position: relative;
+  margin-bottom: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+/* Add more about-specific styles... */
