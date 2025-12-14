@@ -46,6 +46,7 @@ const results = {
   placeholders: [],
   missingPages: [],
   missingImages: [],
+  missingCSS: [],
   fixes: [],
   errors: [],
 };
@@ -281,6 +282,41 @@ function analyzeMissingImages() {
       results.missingImages.length > 0 ? 'yellow' : 'green');
 }
 
+function validatePageCSS() {
+  log('🎨 Validating Page CSS...', 'cyan');
+  
+  const pageFiles = findFiles(config.pagesDir, ['.jsx', '.tsx']);
+  const stylesDir = path.join(__dirname, '../src/styles');
+  
+  pageFiles.forEach(pageFile => {
+    const content = fs.readFileSync(pageFile, 'utf-8');
+    const pageName = path.basename(pageFile, path.extname(pageFile)).toLowerCase();
+    
+    // Skip special pages
+    if (pageName === 'notfound' || pageName === 'index') return;
+    
+    // Check if CSS file exists
+    const cssFile = path.join(stylesDir, `${pageName}.css`);
+    
+    // Check if CSS is imported
+    const cssImportRegex = new RegExp(`import.*['"].*${pageName}\\.css['"]`);
+    const hasCSSImport = cssImportRegex.test(content);
+    
+    if (!fs.existsSync(cssFile) || !hasCSSImport) {
+      results.missingCSS.push({
+        page: pageName,
+        file: pageFile,
+        cssFile: cssFile,
+        exists: fs.existsSync(cssFile),
+        imported: hasCSSImport,
+      });
+    }
+  });
+  
+  log(`   ✓ Found ${results.missingCSS.length} pages without dedicated CSS\n`,
+      results.missingCSS.length > 0 ? 'yellow' : 'green');
+}
+
 //═══════════════════════════════════════════════════════════════════════════════
 // Repair Functions
 //═══════════════════════════════════════════════════════════════════════════════
@@ -425,6 +461,8 @@ function generateReport() {
       results.missingPages.length > 0 ? 'yellow' : 'green');
   log(`  Missing Images: ${results.missingImages.length}`,
       results.missingImages.length > 0 ? 'yellow' : 'green');
+  log(`  Missing CSS: ${results.missingCSS.length}`,
+      results.missingCSS.length > 0 ? 'yellow' : 'green');
   log(`  Fixes Applied: ${results.fixes.length}`, 'green');
   log(`  Errors: ${results.errors.length}`, results.errors.length > 0 ? 'red' : 'green');
   
@@ -463,6 +501,10 @@ function generateReport() {
 - **Placeholders**: ${results.placeholders.length}
 - **Missing Pages**: ${results.missingPages.length}
 - **Missing Images**: ${results.missingImages.length}
+- **Missing CSS**: ${results.missingCSS.length}
+- **Fixes Applied**: ${results.fixes.length}
+- **Errors**: ${results.errors.length}
+- **Missing Images**: ${results.missingImages.length}
 - **Fixes Applied**: ${results.fixes.length}
 - **Errors**: ${results.errors.length}
 
@@ -486,6 +528,14 @@ ${results.placeholders.map((ph, i) => `${i + 1}. ${ph.type}: "${ph.text}"
    - File: \`${path.relative(process.cwd(), ph.file)}:${ph.line}\`
 `).join('\n')}
 
+## Missing CSS
+
+${results.missingCSS.length > 0 ? results.missingCSS.map((css, i) => `${i + 1}. Page: ${css.page}
+   - File: \`${path.relative(process.cwd(), css.file)}\`
+   - CSS File: ${css.exists ? '✓ Exists' : '✗ Missing'} (\`${path.relative(process.cwd(), css.cssFile)}\`)
+   - Import: ${css.imported ? '✓ Imported' : '✗ Not Imported'}
+`).join('\n') : '_No issues found_'}
+
 ## Fixes Applied
 
 ${results.fixes.map((fix, i) => `${i + 1}. ${fix.type}: ${path.basename(fix.file)}
@@ -497,6 +547,7 @@ ${results.fixes.map((fix, i) => `${i + 1}. ${fix.type}: ${path.basename(fix.file
 ${results.brokenLinks.length > 0 ? '- [ ] Review and fix remaining broken links' : ''}
 ${results.placeholders.length > 0 ? '- [ ] Replace placeholder content with real data' : ''}
 ${results.missingImages.length > 0 ? '- [ ] Add missing images or update image paths' : ''}
+${results.missingCSS.length > 0 ? '- [ ] Create missing CSS files and add imports' : ''}
 ${results.fixes.length > 0 ? '- [ ] Test all automated fixes' : ''}
 ${results.errors.length > 0 ? '- [ ] Resolve errors from automated fixes' : ''}
 `;
@@ -506,7 +557,8 @@ ${results.errors.length > 0 ? '- [ ] Resolve errors from automated fixes' : ''}
   
   // Final status
   const totalIssues = results.brokenLinks.length + results.placeholders.length + 
-                      results.missingPages.length + results.missingImages.length;
+                      results.missingPages.length + results.missingImages.length +
+                      results.missingCSS.length;
   
   if (totalIssues === 0) {
     log('\n✅ No issues found! Site is clean.', 'green');
@@ -544,6 +596,7 @@ function main() {
   analyzePlaceholders();
   analyzeMissingPages();
   analyzeMissingImages();
+  validatePageCSS();
   
   // Apply repairs if enabled
   if (config.autoFix && !config.dryRun) {

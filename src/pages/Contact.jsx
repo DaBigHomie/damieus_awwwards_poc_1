@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { ContactForm } from '../components';
+import '../styles/contact.css';
 
 /**
  * Contact Page

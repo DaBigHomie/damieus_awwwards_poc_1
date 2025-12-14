@@ -1,0 +1,252 @@
+/* Contact Page Styles */
+
+.contact-page {
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+/* Hero Section */
+.contact-hero {
+  padding: clamp(4rem, 8vw, 8rem) clamp(1.5rem, 4vw, 4rem);
+  text-align: center;
+  background: linear-gradient(135deg, var(--bg-color) 0%, var(--card-bg) 100%);
+  border-bottom: 1px solid var(--border);
+}
+
+.contact-hero .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-hero h1 {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.contact-hero .lead {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: clamp(3rem, 6vw, 6rem) clamp(1.5rem, 4vw, 4rem);
+  background: var(--bg-color);
+}
+
+.contact-section .container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: clamp(2rem, 4vw, 4rem);
+  align-items: start;
+}
+
+/* Contact Info */
+.contact-info {
+  position: sticky;
+  top: 120px;
+}
+
+.contact-info h2 {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  margin-bottom: 2rem;
+  font-family: var(--font-display);
+}
+
+.info-item {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.info-item:hover {
+  border-color: var(--accent);
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(0, 242, 255, 0.1);
+}
+
+.info-item h3 {
+  font-size: 1rem;
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.info-item p {
+  color: var(--text-main);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.info-item a {
+  color: var(--text-main);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+
+.info-item a:hover {
+  color: var(--accent);
+}
+
+/* FAQ Section */
+.contact-faq {
+  padding: clamp(3rem, 6vw, 6rem) clamp(1.5rem, 4vw, 4rem);
+  background: var(--card-bg);
+  border-top: 1px solid var(--border);
+}
+
+.contact-faq .container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.contact-faq h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  text-align: center;
+  margin-bottom: clamp(2rem, 4vw, 4rem);
+  font-family: var(--font-display);
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.faq-item {
+  background: var(--bg-color);
+  border: 1px solid var(--border);
+  padding: 2rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.faq-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.faq-item:hover {
+  transform: translateY(-8px);
+  border-color: var(--accent);
+  box-shadow: 0 8px 24px rgba(0, 242, 255, 0.15);
+}
+
+.faq-item:hover::before {
+  opacity: 1;
+}
+
+.faq-item h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-family: var(--font-main);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.faq-item p {
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-info {
+    position: static;
+  }
+  
+  .faq-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-hero {
+    padding: 3rem 1.5rem;
+  }
+  
+  .contact-section {
+    padding: 3rem 1.5rem;
+  }
+  
+  .contact-faq {
+    padding: 3rem 1.5rem;
+  }
+  
+  .contact-content {
+    gap: 2rem;
+  }
+  
+  .info-item {
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .faq-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .faq-item {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .contact-hero .lead {
+    font-size: 0.95rem;
+  }
+  
+  .contact-info h2 {
+    font-size: 1.5rem;
+  }
+  
+  .info-item h3 {
+    font-size: 0.9rem;
+  }
+  
+  .contact-faq h2 {
+    font-size: 1.75rem;
+  }
+  
+  .faq-item h3 {
+    font-size: 1.1rem;
+  }
+  
+  .faq-item p {
+    font-size: 0.9rem;
+  }
+}
