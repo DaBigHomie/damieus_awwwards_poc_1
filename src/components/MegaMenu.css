@@ -7,12 +7,14 @@
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
+  pointer-events: none;
+  transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mega-menu.active {
   opacity: 1;
   visibility: visible;
+  pointer-events: all;
 }
 
 .mega-menu-overlay {

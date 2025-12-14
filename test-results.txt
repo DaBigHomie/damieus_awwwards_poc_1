@@ -1,0 +1,229 @@
+
+> damieus-awwwards-poc@1.0.0 test:e2e
+> jest --config jest.config.cjs
+
+ts-jest[ts-jest-transformer] (WARN) Define `ts-jest` config under `globals` is deprecated. Please do
+transform: {
+    <transform_regex>: ['ts-jest', { /* ts-jest config goes here in Jest */ }],
+},
+See more at https://kulshekhar.github.io/ts-jest/docs/getting-started/presets#advanced
+  console.error
+    PAGE ERROR: Cannot read properties of undefined (reading 'contains')
+
+      35 |     // Catch page errors
+      36 |     page.on('pageerror', (error) => {
+    > 37 |       console.error('PAGE ERROR:', error.message);
+         |               ^
+      38 |     });
+      39 |   });
+      40 |
+
+      at tests/homepage.test.ts:37:15
+      at node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:62:7
+          at Array.map (<anonymous>)
+      at Object.emit (node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:61:20)
+      at CdpPage.emit (node_modules/puppeteer-core/src/common/EventEmitter.ts:135:19)
+      at CdpPage.#handleException (node_modules/puppeteer-core/src/cdp/Page.ts:740:10)
+      at node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:62:7
+          at Array.map (<anonymous>)
+      at Object.emit (node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:61:20)
+      at CdpCDPSession.emit (node_modules/puppeteer-core/src/common/EventEmitter.ts:135:19)
+      at CdpCDPSession._onMessage (node_modules/puppeteer-core/src/cdp/CDPSession.ts:126:12)
+      at Connection.onMessage (node_modules/puppeteer-core/src/cdp/Connection.ts:184:17)
+      at WebSocket.<anonymous> (node_modules/puppeteer-core/src/node/NodeWebSocketTransport.ts:47:24)
+      at callListener (node_modules/ws/lib/event-target.js:290:14)
+      at WebSocket.onMessage (node_modules/ws/lib/event-target.js:209:9)
+      at Receiver.receiverOnMessage (node_modules/ws/lib/websocket.js:1220:20)
+      at Immediate._onImmediate (node_modules/ws/lib/receiver.js:601:16)
+
+  console.error
+    PAGE ERROR: Cannot read properties of undefined (reading 'contains')
+
+      35 |     // Catch page errors
+      36 |     page.on('pageerror', (error) => {
+    > 37 |       console.error('PAGE ERROR:', error.message);
+         |               ^
+      38 |     });
+      39 |   });
+      40 |
+
+      at tests/homepage.test.ts:37:15
+      at node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:62:7
+          at Array.map (<anonymous>)
+      at Object.emit (node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:61:20)
+      at CdpPage.emit (node_modules/puppeteer-core/src/common/EventEmitter.ts:135:19)
+      at CdpPage.#handleException (node_modules/puppeteer-core/src/cdp/Page.ts:740:10)
+      at node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:62:7
+          at Array.map (<anonymous>)
+      at Object.emit (node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:61:20)
+      at CdpCDPSession.emit (node_modules/puppeteer-core/src/common/EventEmitter.ts:135:19)
+      at CdpCDPSession._onMessage (node_modules/puppeteer-core/src/cdp/CDPSession.ts:126:12)
+      at Connection.onMessage (node_modules/puppeteer-core/src/cdp/Connection.ts:184:17)
+      at WebSocket.<anonymous> (node_modules/puppeteer-core/src/node/NodeWebSocketTransport.ts:47:24)
+      at callListener (node_modules/ws/lib/event-target.js:290:14)
+      at WebSocket.onMessage (node_modules/ws/lib/event-target.js:209:9)
+      at Receiver.receiverOnMessage (node_modules/ws/lib/websocket.js:1220:20)
+      at Immediate._onImmediate (node_modules/ws/lib/receiver.js:601:16)
+
+  console.error
+    PAGE ERROR: Cannot read properties of undefined (reading 'contains')
+
+      35 |     // Catch page errors
+      36 |     page.on('pageerror', (error) => {
+    > 37 |       console.error('PAGE ERROR:', error.message);
+         |               ^
+      38 |     });
+      39 |   });
+      40 |
+
+      at tests/homepage.test.ts:37:15
+      at node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:62:7
+          at Array.map (<anonymous>)
+      at Object.emit (node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:61:20)
+      at CdpPage.emit (node_modules/puppeteer-core/src/common/EventEmitter.ts:135:19)
+      at CdpPage.#handleException (node_modules/puppeteer-core/src/cdp/Page.ts:740:10)
+      at node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:62:7
+          at Array.map (<anonymous>)
+      at Object.emit (node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:61:20)
+      at CdpCDPSession.emit (node_modules/puppeteer-core/src/common/EventEmitter.ts:135:19)
+      at CdpCDPSession._onMessage (node_modules/puppeteer-core/src/cdp/CDPSession.ts:126:12)
+      at Connection.onMessage (node_modules/puppeteer-core/src/cdp/Connection.ts:184:17)
+      at WebSocket.<anonymous> (node_modules/puppeteer-core/src/node/NodeWebSocketTransport.ts:47:24)
+      at callListener (node_modules/ws/lib/event-target.js:290:14)
+      at WebSocket.onMessage (node_modules/ws/lib/event-target.js:209:9)
+      at Receiver.receiverOnMessage (node_modules/ws/lib/websocket.js:1220:20)
+      at Immediate._onImmediate (node_modules/ws/lib/receiver.js:601:16)
+
+FAIL tests/homepage.test.ts (105.471 s)
+  Damieus Showcase Homepage Tests
+    Page Load Tests
+      ✕ should load homepage successfully (2943 ms)
+      ✓ should have proper meta tags (40653 ms)
+      ✓ should have Open Graph tags (407 ms)
+    Navigation Tests
+      ✓ should have sticky navigation (313 ms)
+      ✕ should have navigation background (153 ms)
+      ✓ should open mega menu on Services click (6742 ms)
+    Content Tests
+      ✓ should display hero section (334 ms)
+      ✓ should have services section (231 ms)
+      ✕ should load images (2401 ms)
+    Click-through Tests
+      ✓ should navigate to About page (12357 ms)
+      ✓ should navigate to Services page (6198 ms)
+      ✕ should navigate to Contact page (2168 ms)
+    Scroll Tests
+      ✓ should scroll smoothly (1240 ms)
+      ✓ should show sticky nav after scroll (21726 ms)
+    Footer Tests
+      ✓ should have footer (353 ms)
+      ✓ should have footer links (310 ms)
+
+  ● Damieus Showcase Homepage Tests › Page Load Tests › should load homepage successfully
+
+    expect(received).toContain(expected) // indexOf
+
+    Expected substring: "DAMIEUS"
+    Received string:    "Damieus Technology Solutions | Premium Digital Services & AI Solutions"
+
+      53 |       
+      54 |       const title = await page.title();
+    > 55 |       expect(title).toContain('DAMIEUS');
+         |                     ^
+      56 |     });
+      57 |
+      58 |     test('should have proper meta tags', async () => {
+
+      at Object.<anonymous> (tests/homepage.test.ts:55:21)
+
+  ● Damieus Showcase Homepage Tests › Navigation Tests › should have navigation background
+
+    expect(received).not.toBe(expected) // Object.is equality
+
+    Expected: not "rgba(0, 0, 0, 0)"
+
+      107 |       });
+      108 |       
+    > 109 |       expect(navBg.background).not.toBe('rgba(0, 0, 0, 0)');
+          |                                    ^
+      110 |     });
+      111 |
+      112 |     test('should open mega menu on Services click', async () => {
+
+      at Object.<anonymous> (tests/homepage.test.ts:109:36)
+
+  ● Damieus Showcase Homepage Tests › Content Tests › should load images
+
+    expect(received).toBeGreaterThan(expected)
+
+    Expected: > 0
+    Received:   0
+
+      153 |       expect(images.length).toBeGreaterThan(0);
+      154 |       const loadedImages = images.filter((img: any) => img.loaded);
+    > 155 |       expect(loadedImages.length).toBeGreaterThan(0);
+          |                                   ^
+      156 |     });
+      157 |   });
+      158 |
+
+      at Object.<anonymous> (tests/homepage.test.ts:155:35)
+
+  ● Damieus Showcase Homepage Tests › Click-through Tests › should navigate to Contact page
+
+    expect(received).toContain(expected) // indexOf
+
+    Expected substring: "/contact"
+    Received string:    "https://showcase.damieus.app/"
+
+      196 |         
+      197 |         const url = page.url();
+    > 198 |         expect(url).toContain('/contact');
+          |                     ^
+      199 |       }
+      200 |     });
+      201 |   });
+
+      at Object.<anonymous> (tests/homepage.test.ts:198:21)
+
+FAIL tests/scroll.test.ts
+  ● Test suite failed to run
+
+    [96mtests/scroll.test.ts[0m:[93m243[0m:[93m13[0m - [91merror[0m[90m TS6133: [0m'visibleCountBefore' is declared but its value is never read.
+
+    [7m243[0m       const visibleCountBefore = elementsBeforeScroll.filter(Boolean).length;
+    [7m   [0m [91m            ~~~~~~~~~~~~~~~~~~[0m
+
+FAIL tests/performance.test.ts
+  ● Test suite failed to run
+
+    [96mtests/performance.test.ts[0m:[93m221[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'renderTime' does not exist on type 'PerformanceEntry'.
+
+    [7m221[0m             resolve(lastEntry.renderTime || lastEntry.loadTime);
+    [7m   [0m [91m                              ~~~~~~~~~~[0m
+    [96mtests/performance.test.ts[0m:[93m221[0m:[93m55[0m - [91merror[0m[90m TS2339: [0mProperty 'loadTime' does not exist on type 'PerformanceEntry'.
+
+    [7m221[0m             resolve(lastEntry.renderTime || lastEntry.loadTime);
+    [7m   [0m [91m                                                      ~~~~~~~~[0m
+
+FAIL tests/mobile-optimization.test.ts
+  ● Test suite failed to run
+
+    [96mtests/mobile-optimization.test.ts[0m:[93m71[0m:[93m44[0m - [91merror[0m[90m TS6133: [0m'name' is declared but its value is never read.
+
+    [7m71[0m   describe.each(devices)('$name Tests', ({ name, viewport, userAgent }) => {
+    [7m  [0m [91m                                           ~~~~[0m
+
+FAIL tests/devtools.test.ts
+  ● Test suite failed to run
+
+    [96mtests/devtools.test.ts[0m:[93m137[0m:[93m15[0m - [91merror[0m[90m TS6133: [0m'url' is declared but its value is never read.
+
+    [7m137[0m         const url = response.url();
+    [7m   [0m [91m              ~~~[0m
+
+Test Suites: 5 failed, 5 total
+Tests:       4 failed, 12 passed, 16 total
+Snapshots:   0 total
+Time:        109.128 s, estimated 1131 s
+Ran all test suites.

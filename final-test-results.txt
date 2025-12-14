@@ -1,0 +1,1133 @@
+
+> damieus-awwwards-poc@1.0.0 test:e2e
+> jest --config jest.config.cjs
+
+ts-jest[ts-jest-transformer] (WARN) Define `ts-jest` config under `globals` is deprecated. Please do
+transform: {
+    <transform_regex>: ['ts-jest', { /* ts-jest config goes here in Jest */ }],
+},
+See more at https://kulshekhar.github.io/ts-jest/docs/getting-started/presets#advanced
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.error
+    PAGE ERROR: Cannot read properties of undefined (reading 'contains')
+
+      35 |     // Catch page errors
+      36 |     page.on('pageerror', (error) => {
+    > 37 |       console.error('PAGE ERROR:', error.message);
+         |               ^
+      38 |     });
+      39 |   });
+      40 |
+
+      at tests/homepage.test.ts:37:15
+      at node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:62:7
+          at Array.map (<anonymous>)
+      at Object.emit (node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:61:20)
+      at CdpPage.emit (node_modules/puppeteer-core/src/common/EventEmitter.ts:135:19)
+      at CdpPage.#handleException (node_modules/puppeteer-core/src/cdp/Page.ts:740:10)
+      at node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:62:7
+          at Array.map (<anonymous>)
+      at Object.emit (node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:61:20)
+      at CdpCDPSession.emit (node_modules/puppeteer-core/src/common/EventEmitter.ts:135:19)
+      at CdpCDPSession._onMessage (node_modules/puppeteer-core/src/cdp/CDPSession.ts:126:12)
+      at Connection.onMessage (node_modules/puppeteer-core/src/cdp/Connection.ts:184:17)
+      at WebSocket.<anonymous> (node_modules/puppeteer-core/src/node/NodeWebSocketTransport.ts:47:24)
+      at callListener (node_modules/ws/lib/event-target.js:290:14)
+      at WebSocket.onMessage (node_modules/ws/lib/event-target.js:209:9)
+      at Receiver.receiverOnMessage (node_modules/ws/lib/websocket.js:1220:20)
+      at Immediate._onImmediate (node_modules/ws/lib/receiver.js:601:16)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: The resource https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: The resource https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: The resource https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.error
+    PAGE ERROR: Cannot read properties of undefined (reading 'contains')
+
+      35 |     // Catch page errors
+      36 |     page.on('pageerror', (error) => {
+    > 37 |       console.error('PAGE ERROR:', error.message);
+         |               ^
+      38 |     });
+      39 |   });
+      40 |
+
+      at tests/homepage.test.ts:37:15
+      at node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:62:7
+          at Array.map (<anonymous>)
+      at Object.emit (node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:61:20)
+      at CdpPage.emit (node_modules/puppeteer-core/src/common/EventEmitter.ts:135:19)
+      at CdpPage.#handleException (node_modules/puppeteer-core/src/cdp/Page.ts:740:10)
+      at node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:62:7
+          at Array.map (<anonymous>)
+      at Object.emit (node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:61:20)
+      at CdpCDPSession.emit (node_modules/puppeteer-core/src/common/EventEmitter.ts:135:19)
+      at CdpCDPSession._onMessage (node_modules/puppeteer-core/src/cdp/CDPSession.ts:126:12)
+      at Connection.onMessage (node_modules/puppeteer-core/src/cdp/Connection.ts:184:17)
+      at WebSocket.<anonymous> (node_modules/puppeteer-core/src/node/NodeWebSocketTransport.ts:47:24)
+      at callListener (node_modules/ws/lib/event-target.js:290:14)
+      at WebSocket.onMessage (node_modules/ws/lib/event-target.js:209:9)
+      at Receiver.receiverOnMessage (node_modules/ws/lib/websocket.js:1220:20)
+      at Immediate._onImmediate (node_modules/ws/lib/receiver.js:601:16)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: The resource https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: The resource https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: The resource https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.error
+    PAGE ERROR: Cannot read properties of undefined (reading 'contains')
+
+      35 |     // Catch page errors
+      36 |     page.on('pageerror', (error) => {
+    > 37 |       console.error('PAGE ERROR:', error.message);
+         |               ^
+      38 |     });
+      39 |   });
+      40 |
+
+      at tests/homepage.test.ts:37:15
+      at node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:62:7
+          at Array.map (<anonymous>)
+      at Object.emit (node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:61:20)
+      at CdpPage.emit (node_modules/puppeteer-core/src/common/EventEmitter.ts:135:19)
+      at CdpPage.#handleException (node_modules/puppeteer-core/src/cdp/Page.ts:740:10)
+      at node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:62:7
+          at Array.map (<anonymous>)
+      at Object.emit (node_modules/puppeteer-core/lib/cjs/third_party/mitt/mitt.js:61:20)
+      at CdpCDPSession.emit (node_modules/puppeteer-core/src/common/EventEmitter.ts:135:19)
+      at CdpCDPSession._onMessage (node_modules/puppeteer-core/src/cdp/CDPSession.ts:126:12)
+      at Connection.onMessage (node_modules/puppeteer-core/src/cdp/Connection.ts:184:17)
+      at WebSocket.<anonymous> (node_modules/puppeteer-core/src/node/NodeWebSocketTransport.ts:47:24)
+      at callListener (node_modules/ws/lib/event-target.js:290:14)
+      at WebSocket.onMessage (node_modules/ws/lib/event-target.js:209:9)
+      at Receiver.receiverOnMessage (node_modules/ws/lib/websocket.js:1220:20)
+      at Immediate._onImmediate (node_modules/ws/lib/receiver.js:601:16)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: The resource https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: The resource https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: The resource https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0sMIuPIYBCpEV5eFdCBfe_Kdxicw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+  console.log
+    PAGE LOG: A preload for 'https://fonts.gstatic.com/s/syncopate/v24/pe0pMIuPIYBCpEV5eFdKvtKqBP5vWVYgVw.woff2' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+
+      at tests/homepage.test.ts:31:17
+          at Array.map (<anonymous>)
+          at Array.map (<anonymous>)
+
+FAIL tests/homepage.test.ts (41.117 s)
+  Damieus Showcase Homepage Tests
+    Page Load Tests
+      ✓ should load homepage successfully (453 ms)
+      ✓ should have proper meta tags (2039 ms)
+      ✓ should have Open Graph tags (5281 ms)
+    Navigation Tests
+      ✓ should have sticky navigation (851 ms)
+      ✕ should have navigation background (212 ms)
+      ✕ should open mega menu on Services click (1757 ms)
+    Content Tests
+      ✓ should display hero section (366 ms)
+      ✓ should have services section (429 ms)
+      ✕ should load images (9352 ms)
+    Click-through Tests
+      ✕ should navigate to About page (2235 ms)
+      ✓ should navigate to Services page (1111 ms)
+      ✓ should navigate to Contact page (9043 ms)
+    Scroll Tests
+      ✓ should scroll smoothly (4409 ms)
+      ✓ should show sticky nav after scroll (839 ms)
+    Footer Tests
+      ✓ should have footer (357 ms)
+      ✓ should have footer links (260 ms)
+
+  ● Damieus Showcase Homepage Tests › Navigation Tests › should have navigation background
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      108 |       
+      109 |       // Check for backdrop filter OR non-transparent background
+    > 110 |       expect(navBg.background !== 'rgba(0, 0, 0, 0)' || navBg.backdropFilter !== 'none').toBe(true);
+          |                                                                                          ^
+      111 |     });
+      112 |
+      113 |     test('should open mega menu on Services click', async () => {
+
+      at Object.<anonymous> (tests/homepage.test.ts:110:90)
+
+  ● Damieus Showcase Homepage Tests › Navigation Tests › should open mega menu on Services click
+
+    expect(received).toBeTruthy()
+
+    Received: null
+
+      121 |         
+      122 |         const megaMenu = await page.$('.mega-menu.active');
+    > 123 |         expect(megaMenu).toBeTruthy();
+          |                          ^
+      124 |       }
+      125 |     });
+      126 |   });
+
+      at Object.<anonymous> (tests/homepage.test.ts:123:26)
+
+  ● Damieus Showcase Homepage Tests › Content Tests › should load images
+
+    expect(received).toBeGreaterThan(expected)
+
+    Expected: > 0
+    Received:   0
+
+      154 |       expect(images.length).toBeGreaterThan(0);
+      155 |       const loadedImages = images.filter((img: any) => img.loaded);
+    > 156 |       expect(loadedImages.length).toBeGreaterThan(0);
+          |                                   ^
+      157 |     });
+      158 |   });
+      159 |
+
+      at Object.<anonymous> (tests/homepage.test.ts:156:35)
+
+  ● Damieus Showcase Homepage Tests › Click-through Tests › should navigate to About page
+
+    expect(received).toContain(expected) // indexOf
+
+    Expected substring: "/about"
+    Received string:    "https://showcase.damieus.app/"
+
+      169 |         
+      170 |         const url = page.url();
+    > 171 |         expect(url).toContain('/about');
+          |                     ^
+      172 |       }
+      173 |     });
+      174 |
+
+      at Object.<anonymous> (tests/homepage.test.ts:171:21)
+
+  console.log
+    Page Load Time: 504 ms
+
+      at Object.<anonymous> (tests/performance.test.ts:46:15)
+
+  console.log
+    DOMContentLoaded Time: 112 ms
+
+      at Object.<anonymous> (tests/performance.test.ts:60:15)
+
+  console.log
+    Performance Metrics: {
+      dns: 0,
+      tcp: 0,
+      ttfb: 42.5,
+      download: 1.2000000029802322,
+      dom: 0.10000000149011612,
+      load: 0.10000000149011612
+    }
+
+      at Object.<anonymous> (tests/performance.test.ts:82:15)
+
+  console.log
+    Total JS/CSS Size: 127.09 KB
+
+      at Object.<anonymous> (tests/performance.test.ts:112:15)
+
+  console.log
+    Images loaded: 26
+
+      at Object.<anonymous> (tests/performance.test.ts:155:15)
+
+  console.log
+    Lazy-loaded images: 1
+
+      at Object.<anonymous> (tests/performance.test.ts:166:15)
+
+  console.log
+    JS Execution Metrics: []
+
+      at Object.<anonymous> (tests/performance.test.ts:203:15)
+
+  console.log
+    LCP: 0 ms
+
+      at Object.<anonymous> (tests/performance.test.ts:228:15)
+
+  console.log
+    FID: 0 ms
+
+      at Object.<anonymous> (tests/performance.test.ts:252:15)
+
+  console.log
+    Memory Growth: -0.26 MB
+
+      at Object.<anonymous> (tests/performance.test.ts:277:15)
+
+PASS tests/performance.test.ts (23.519 s)
+  Damieus Performance Tests
+    Load Performance
+      ✓ should load page within 3 seconds (748 ms)
+      ✓ should achieve DOMContentLoaded quickly (172 ms)
+      ✓ should load resources efficiently (153 ms)
+    Resource Optimization
+      ✓ should have optimized bundle sizes (177 ms)
+      ✓ should use compression (138 ms)
+      ✓ should have caching headers (153 ms)
+    Image Optimization
+      ✓ should load images efficiently (6342 ms)
+      ✓ should use lazy loading (323 ms)
+    Runtime Performance
+      ✓ should have smooth scrolling (264 ms)
+      ✓ should have fast JavaScript execution (147 ms)
+    Core Web Vitals
+      ✓ should measure Largest Contentful Paint (LCP) (9168 ms)
+      ✓ should measure First Input Delay (FID) (3942 ms)
+    Memory Usage
+      ✓ should not have memory leaks (731 ms)
+
+FAIL tests/scroll.test.ts
+  ● Test suite failed to run
+
+    [96mtests/scroll.test.ts[0m:[93m243[0m:[93m13[0m - [91merror[0m[90m TS6133: [0m'_visibleCountBefore' is declared but its value is never read.
+
+    [7m243[0m       const _visibleCountBefore = elementsBeforeScroll.filter(Boolean).length;
+    [7m   [0m [91m            ~~~~~~~~~~~~~~~~~~~[0m
+
+FAIL tests/mobile-optimization.test.ts
+  ● Test suite failed to run
+
+    [96mtests/mobile-optimization.test.ts[0m:[93m71[0m:[93m44[0m - [91merror[0m[90m TS6133: [0m'name' is declared but its value is never read.
+
+    [7m71[0m   describe.each(devices)('$name Tests', ({ name, viewport, userAgent }) => {
+    [7m  [0m [91m                                           ~~~~[0m
+
+  console.log
+    Console Errors: []
+
+      at Object.<anonymous> (tests/devtools.test.ts:50:15)
+
+  console.log
+    JavaScript Errors: []
+
+      at Object.<anonymous> (tests/devtools.test.ts:65:15)
+
+  console.log
+    Unhandled Rejections: []
+
+      at Object.<anonymous> (tests/devtools.test.ts:82:15)
+
+  console.log
+    Failed Requests: []
+
+      at Object.<anonymous> (tests/devtools.test.ts:102:15)
+
+  console.log
+    Failed HTTP Responses: []
+
+      at Object.<anonymous> (tests/devtools.test.ts:122:15)
+
+  console.log
+    Resources Loaded: { js: 4, css: 2, images: 0, fonts: 0, other: 1 }
+
+      at Object.<anonymous> (tests/devtools.test.ts:154:15)
+
+  console.log
+    Total Images: 26
+
+      at Object.<anonymous> (tests/devtools.test.ts:178:15)
+
+  console.log
+    Broken Images: 26
+
+      at Object.<anonymous> (tests/devtools.test.ts:179:15)
+
+  console.log
+    Scripts: 2
+
+      at Object.<anonymous> (tests/devtools.test.ts:210:15)
+
+  console.log
+    Security Headers: {
+      'strict-transport-security': undefined,
+      'x-content-type-options': undefined,
+      'x-frame-options': undefined
+    }
+
+      at Object.<anonymous> (tests/devtools.test.ts:228:15)
+
+  console.log
+    Exposed Secrets: []
+
+      at Object.<anonymous> (tests/devtools.test.ts:255:15)
+
+  console.log
+    Long Tasks: []
+
+      at Object.<anonymous> (tests/devtools.test.ts:284:15)
+
+  console.log
+    Slow Resources: []
+
+      at Object.<anonymous> (tests/devtools.test.ts:303:15)
+
+  console.log
+    Accessibility Issues: []
+
+      at Object.<anonymous> (tests/devtools.test.ts:341:15)
+
+FAIL tests/devtools.test.ts (23.99 s)
+  Damieus DevTools Tests
+    Console Errors
+      ✓ should have no console errors (2678 ms)
+      ✓ should have no JavaScript errors (2111 ms)
+      ✓ should have no uncaught promise rejections (3085 ms)
+    Network Requests
+      ✓ should have no failed network requests (556 ms)
+      ✓ should have successful HTTP responses (252 ms)
+      ✓ should load all resources (164 ms)
+    Resource Loading
+      ✕ should load all images (2373 ms)
+      ✕ should load all stylesheets (448 ms)
+      ✓ should load all scripts (422 ms)
+    Security
+      ✓ should use HTTPS (137 ms)
+      ✕ should have security headers (111 ms)
+      ✓ should not expose sensitive information (118 ms)
+    Performance Monitoring
+      ✓ should have no long tasks (5539 ms)
+      ✓ should have efficient resource timing (2866 ms)
+    Accessibility
+      ✓ should have no accessibility violations (1255 ms)
+
+  ● Damieus DevTools Tests › Resource Loading › should load all images
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 26
+
+      179 |       console.log('Broken Images:', brokenImages.length);
+      180 |
+    > 181 |       expect(brokenImages.length).toBe(0);
+          |                                   ^
+      182 |     });
+      183 |
+      184 |     test('should load all stylesheets', async () => {
+
+      at Object.<anonymous> (tests/devtools.test.ts:181:35)
+
+  ● Damieus DevTools Tests › Resource Loading › should load all stylesheets
+
+    DOMException: Failed to read the 'cssRules' property from 'CSSStyleSheet': Cannot access rules
+    pptr:evaluate;Object.%3Canonymous%3E%20(%2FUsers%2Fdame%2Fmanagement-git%2Fdamieus_awwwards_poc_1%2Ftests%2Fdevtools.test.ts%3A147%3A44):4:34
+
+      at evaluate (evaluate at Object.<anonymous> (tests/devtools.test.ts:147:44), <anonymous>:3:33)
+      at evaluate (evaluate at Object.<anonymous> (tests/devtools.test.ts:147:44), <anonymous>:1:56)
+      at ExecutionContext.#evaluate (node_modules/puppeteer-core/src/cdp/ExecutionContext.ts:449:34)
+      at ExecutionContext.evaluate (node_modules/puppeteer-core/src/cdp/ExecutionContext.ts:292:12)
+      at IsolatedWorld.evaluate (node_modules/puppeteer-core/src/cdp/IsolatedWorld.ts:194:12)
+      at CdpFrame.evaluate (node_modules/puppeteer-core/src/api/Frame.ts:484:12)
+      at CdpPage.evaluate (node_modules/puppeteer-core/src/api/Page.ts:2218:12)
+      at Object.<anonymous> (tests/devtools.test.ts:187:27)
+
+  ● Damieus DevTools Tests › Security › should have security headers
+
+    expect(received).toBeTruthy()
+
+    Received: undefined
+
+      232 |       });
+      233 |
+    > 234 |       expect(headers?.['strict-transport-security']).toBeTruthy();
+          |                                                      ^
+      235 |     });
+      236 |
+      237 |     test('should not expose sensitive information', async () => {
+
+      at Object.<anonymous> (tests/devtools.test.ts:234:54)
+
+Test Suites: 4 failed, 1 passed, 5 total
+Tests:       7 failed, 37 passed, 44 total
+Snapshots:   0 total
+Time:        94.676 s
+Ran all test suites.

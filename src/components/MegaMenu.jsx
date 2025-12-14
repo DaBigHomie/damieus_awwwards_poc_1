@@ -62,8 +62,9 @@ export const MegaMenu = ({ isOpen, onClose }) => {
                 <img 
                   src={`/images/services/${service.slug}.jpg`} 
                   alt={service.title}
+                  loading="lazy"
                   onError={(e) => {
-                    e.target.src = '/images/placeholder-service.jpg';
+                    e.target.src = '/images/placeholder-service.svg';
                     e.target.onerror = null;
                   }}
                 />
